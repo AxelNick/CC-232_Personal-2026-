@@ -1,4 +1,4 @@
-### Guía ordenada para CC232
+### # Guía de configuración del entorno de desarrollo para CC232
 
 #### Introducción
 
