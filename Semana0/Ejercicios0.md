@@ -1,5 +1,6 @@
 ### Experimentos con `g++` para analizar optimización, sanitizers, pruebas y benchmarks en CC232
 
+
 Estos experimentos se pueden realizar con `g++` y son muy útiles para un curso como **CC232**, porque permiten mostrar que el rendimiento de un programa no 
 depende solo del compilador, sino también de la **elección del algoritmo**, de la **estructura de datos**, de la **correctitud del código** y de la **calidad de las pruebas**.
 
@@ -11,6 +12,8 @@ La idea principal es esta:
 * y finalmente explorar optimizaciones más avanzadas del compilador.
 
 Dicho de otro modo: **`-O3` no reemplaza a `nth_element`, a `lower_bound`, a un buen `reserve()`, ni a una prueba bien hecha**.
+
+> Utiliza el archivo dado: [https://github.com/kapumota/CC-232/blob/main/Semana0/stl_optimizacion_demostracion.cpp](https://github.com/kapumota/CC-232/blob/main/Semana0/stl_optimizacion_demostracion.cpp)  para estos experimentos.
 
 #### 1. Experimento base: escalera de optimización
 
