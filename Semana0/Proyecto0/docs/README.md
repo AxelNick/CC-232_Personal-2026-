@@ -37,12 +37,13 @@ ctest --test-dir build -C Debug --output-on-failure
 ```
 Desde build por ejemplo
 
+```bash
 ./Debug/demo_line_stats.exe
 ./Debug/bench_vector_growth.exe
 ./Debug/bench_vector_ops.exe
 ./Debug/bench_cache_effects.exe
 ./Debug/sanitizer_demo.exe
-
+```
 
 #### Qué mirar para la clase
 
