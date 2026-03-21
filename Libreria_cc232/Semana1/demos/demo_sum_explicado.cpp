@@ -68,7 +68,7 @@ int main() {
     std::cout << "\n=== Trazado pedagogico de divide y venceras ===\n";
     std::cout << "resultado = " << sum_dc_trace(a, 0, n) << "\n";
 
-    std::cout << "\nNota docente: el trazado pedagogico define sum([lo, hi)) = 0 si hi <= lo.\n";
+    std::cout << "\nNota: el trazado pedagogico define sum([lo, hi)) = 0 si hi <= lo.\n";
     std::cout << "La implementacion original de Deng usada por el curso asume n > 0 en el caso divide y venceras.\n";
     return 0;
 }
