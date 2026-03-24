@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Resuelve/automatiza los experimentos propuestos en Ejercicios0.md
 # usando el archivo stl_optimizacion_demostracion.cpp subido para el curso.
-# Verion4.2
+# Version 4.2
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_CPP_DEFAULT="$ROOT_DIR/stl_optimizacion_demostracion.cpp"
 BASE_CPP="$BASE_CPP_DEFAULT"
@@ -136,7 +136,7 @@ validate_inputs() {
 
 write_header() {
     {
-        echo "# Reporte automatico de Ejercicios0"
+        echo "# Reporte automatico de la lista de ejercicios 0"
         echo
         echo "Archivo base usado: $BASE_CPP"
         echo
