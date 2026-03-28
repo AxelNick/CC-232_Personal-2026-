@@ -1,6 +1,12 @@
 #include <iostream>
 #include "Capitulo2.h"
 
+namespace {
+void increaseByOne(int& x) {
+    ++x;
+}
+}
+
 int main() {
     ods::FastSqrt::init();
 
@@ -30,6 +36,12 @@ int main() {
     ods::RootishArrayStack<int> rootish;
     for (int i = 0; i < 6; ++i) rootish.add(i, i * 10);
 
+    ods::DengVector<int> deng;
+    for (int i = 0; i < 5; ++i) deng.insert(deng.size(), (i + 1) * 11);
+    deng.insert(2, 99);
+    deng.remove(4);
+    deng.traverse(increaseByOne);
+
     std::cout << "ArrayStack: ";
     for (int i = 0; i < stack.size(); ++i) std::cout << stack.get(i) << (i + 1 < stack.size() ? ' ' : '\n');
 
@@ -46,6 +58,10 @@ int main() {
 
     std::cout << "RootishArrayStack: ";
     for (int i = 0; i < rootish.size(); ++i) std::cout << rootish.get(i) << (i + 1 < rootish.size() ? ' ' : '\n');
+
+    std::cout << "DengVector: ";
+    for (int i = 0; i < deng.size(); ++i) std::cout << deng[i] << (i + 1 < deng.size() ? ' ' : '\n');
+    std::cout << "DengVector size=" << deng.size() << ", capacity=" << deng.capacity() << "\n";
 
     std::cout << "FastSqrt(999) = " << ods::FastSqrt::sqrt(999) << "\n";
     return 0;
