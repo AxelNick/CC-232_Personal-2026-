@@ -8,3 +8,4 @@
 #include "DualArrayDeque.h"
 #include "RootishArrayStack.h"
 #include "FastSqrt.h"
+#include "DengVector.h"
