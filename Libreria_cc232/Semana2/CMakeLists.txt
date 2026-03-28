@@ -1,7 +1,14 @@
 cmake_minimum_required(VERSION 3.20)
+project(Semana2 LANGUAGES CXX)
+include(CTest)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(sem2_headers INTERFACE)
 target_include_directories(sem2_headers INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/include")
+target_compile_features(sem2_headers INTERFACE cxx_std_17)
 
 function(cc232_link_math_if_needed target_name)
   if(UNIX AND NOT APPLE)
@@ -24,15 +31,19 @@ cc232_add_sem2_target(sem2_demo_arraydeque "demos/demo_arraydeque.cpp")
 cc232_add_sem2_target(sem2_demo_dualarraydeque "demos/demo_dualarraydeque.cpp")
 cc232_add_sem2_target(sem2_demo_fastsqrt "demos/demo_fastsqrt.cpp")
 cc232_add_sem2_target(sem2_demo_capitulo2_panorama "demos/demo_capitulo2_panorama.cpp")
+cc232_add_sem2_target(sem2_demo_deng_vector "demos/demo_deng_vector.cpp")
 
 add_executable(sem2_demo_arraystack_explicado "demos/demo_arraystack_explicado.cpp")
 target_include_directories(sem2_demo_arraystack_explicado PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
+target_compile_features(sem2_demo_arraystack_explicado PRIVATE cxx_std_17)
 
 add_executable(sem2_demo_rootisharraystack_explicado "demos/demo_rootisharraystack_explicado.cpp")
 target_include_directories(sem2_demo_rootisharraystack_explicado PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
+target_compile_features(sem2_demo_rootisharraystack_explicado PRIVATE cxx_std_17)
 cc232_link_math_if_needed(sem2_demo_rootisharraystack_explicado)
 
 add_executable(sem2_demo_stl_vector_contraste "demos/demo_stl_vector_contraste.cpp")
+target_compile_features(sem2_demo_stl_vector_contraste PRIVATE cxx_std_17)
 
 cc232_add_sem2_target(sem2_test_public "pruebas_publicas/test_public_week2.cpp")
 cc232_add_sem2_target(sem2_test_internal "pruebas_internas/test_internal_week2.cpp")
