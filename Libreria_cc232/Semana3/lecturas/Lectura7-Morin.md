@@ -1,6 +1,6 @@
 ### **Listas enlazadas, acceso por referencia y compromiso entre tiempo y espacio en estructuras lineales**
 
-### **Resumen**
+#### **Resumen**
 
 Las listas enlazadas constituyen una familia de estructuras lineales cuya característica principal es representar la secuencia lógica de los elementos mediante **nodos conectados por referencias**, en lugar de ubicarlos necesariamente en posiciones contiguas de memoria. Esta decisión de representación modifica de manera profunda la forma de acceder a los datos y el costo de las operaciones fundamentales. Mientras que en una estructura basada en arreglos el acceso por índice puede resolverse directamente, en una estructura enlazada la localización de un elemento exige recorrer la secuencia nodo por nodo. 
 A cambio, las inserciones y eliminaciones locales pueden ejecutarse con gran eficiencia una vez que se dispone de la referencia adecuada.  
