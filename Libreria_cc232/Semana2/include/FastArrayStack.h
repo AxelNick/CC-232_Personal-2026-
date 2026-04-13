@@ -1,8 +1,6 @@
 /*
  * FastArrayStack.h
- *
- *  Created on: 2011-11-23
- *      Author: morin
+ * Adaptado pedagogicamente para CC232 a partir del codigo de Morin.
  */
 
 #ifndef FASTARRAYSTACK_H_
