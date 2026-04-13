@@ -47,7 +47,7 @@ inline NQueensResult placeQueens(int n, bool collectPlacements = true) {
             q = solution.pop();
             ++q.y;
         } else {
-            // Buscar una columna válida en la fila actual
+            // Busca una columna válida en la fila actual
             while (q.y < n && conflictsWithAny(solution, q, result.checks)) {
                 ++q.y;
             }
@@ -70,7 +70,7 @@ inline NQueensResult placeQueens(int n, bool collectPlacements = true) {
                     }
                 }
 
-                // Pasar a la siguiente fila
+                // Pasa a la siguiente fila
                 ++q.x;
                 q.y = 0;
             }
