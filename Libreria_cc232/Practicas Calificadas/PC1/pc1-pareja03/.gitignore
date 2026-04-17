@@ -1,0 +1,10 @@
+# Ignorar ejecutables compilados
+*.exe
+*.out
+*.app
+
+# Ignorar archivos de profiling
+gmon.out
+
+# Ignorar carpeta de construcción de CMake
+build/
