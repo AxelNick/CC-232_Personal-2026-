@@ -1,0 +1,10 @@
+semana3_public 2 0.00847085
+semana3_public_extras 2 0.00871445
+semana3_internal 1 0.103083
+semana3_internal_extras 1 0.103496
+semana3_stress_selist 1 0.102598
+semana3_public_linked_adapters 2 0.0089078
+semana3_public_compare 2 0.0091631
+semana3_public_deng 1 0.102518
+semana3_internal_deng 1 0.106599
+---

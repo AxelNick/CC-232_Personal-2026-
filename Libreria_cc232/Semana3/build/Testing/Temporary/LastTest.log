@@ -1,0 +1,108 @@
+Start testing: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+----------------------------------------------------------
+1/7 Testing: semana3_public
+1/7 Test: semana3_public
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build/sem3_test_public.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build
+"semana3_public" start time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"semana3_public" end time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+"semana3_public" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: semana3_public_extras
+2/7 Test: semana3_public_extras
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build/sem3_test_public_extras.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build
+"semana3_public_extras" start time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"semana3_public_extras" end time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+"semana3_public_extras" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: semana3_internal
+3/7 Test: semana3_internal
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build/sem3_test_internal.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build
+"semana3_internal" start time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"semana3_internal" end time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+"semana3_internal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: semana3_internal_extras
+4/7 Test: semana3_internal_extras
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build/sem3_test_internal_extras.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build
+"semana3_internal_extras" start time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"semana3_internal_extras" end time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+"semana3_internal_extras" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: semana3_stress_selist
+5/7 Test: semana3_stress_selist
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build/sem3_stress_selist.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build
+"semana3_stress_selist" start time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"semana3_stress_selist" end time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+"semana3_stress_selist" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: semana3_public_linked_adapters
+6/7 Test: semana3_public_linked_adapters
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build/sem3_test_public_linked_adapters.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build
+"semana3_public_linked_adapters" start time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"semana3_public_linked_adapters" end time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+"semana3_public_linked_adapters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: semana3_public_compare
+7/7 Test: semana3_public_compare
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build/sem3_test_public_compare.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/Algoritmos y estructura de datos/Repositorio/Personal/CC-232_Personal-2026--main/Libreria_cc232/Semana3/build
+"semana3_public_compare" start time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"semana3_public_compare" end time: Apr 23 17:20 Hora est. Pacífico, Sudamérica
+"semana3_public_compare" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 23 17:20 Hora est. Pacífico, Sudamérica

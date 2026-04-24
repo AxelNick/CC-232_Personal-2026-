@@ -1,0 +1,24 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3
+# Build directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[semana3_public]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_public.exe")
+set_tests_properties([=[semana3_public]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;38;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_public_extras]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_public_extras.exe")
+set_tests_properties([=[semana3_public_extras]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;39;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_internal]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_internal.exe")
+set_tests_properties([=[semana3_internal]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;40;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_internal_extras]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_internal_extras.exe")
+set_tests_properties([=[semana3_internal_extras]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;41;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_stress_selist]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_stress_selist.exe")
+set_tests_properties([=[semana3_stress_selist]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;42;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_public_linked_adapters]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_public_linked_adapters.exe")
+set_tests_properties([=[semana3_public_linked_adapters]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;43;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_public_compare]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_public_compare.exe")
+set_tests_properties([=[semana3_public_compare]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;44;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_public_deng]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_public_deng.exe")
+set_tests_properties([=[semana3_public_deng]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;53;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
+add_test([=[semana3_internal_deng]=] "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_internal_deng.exe")
+set_tests_properties([=[semana3_internal_deng]=] PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;54;add_test;C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt;0;")
