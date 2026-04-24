@@ -1,4 +1,4 @@
-# Actividad 2 - Semana 2
+# Actividad 3 - Semana 3
 
 ## Integrantes
 - Axel Alberto Reyes Baldeon
