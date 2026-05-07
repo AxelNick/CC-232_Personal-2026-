@@ -5,8 +5,19 @@
 **Formato de evaluación:** Video + repositorio + evidencia de compilación, ejecución, pruebas y modificación del código  
 **Nota:** Sobre 20  
 **Entrega:** **1 de mayo de 2026 a las 8:00 a. m.**  
-**La entrega debe incluir la dirección del repositorio del curso donde se encuentre esta evaluación.**
+**La entrega debe incluir la dirección del repositorio personal donde se encuentre esta evaluación**.
+> Una estructura de repositorio sugerida es:
 
+```
+Repositorio-personal/
+├── Semana1/
+│   └── actividad1-CC232/
+├── Semana2/
+│   └── practica-calificada2/
+└── Semana3/
+    └── Actividad3-CC232/
+...
+```
 **No se permiten entregas tardías.**  
 **Si entregas fuera de plazo, no se revisará el trabajo y se colocará `NP (No presentó)`.**
 

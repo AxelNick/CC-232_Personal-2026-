@@ -79,12 +79,12 @@ Para compilar realmente en modo Debug:
 
 Esta semana está alineada con el bloque del sílabo sobre colas de prioridad, heaps, heapify y árboles binarios de búsqueda. La base de árboles también recoge parte del trabajo conceptual de la semana 4. El repositorio y las lecturas se conectan así:
 
-* **Deng 5.1** y **5.5**: base enlazada con `BinNode` y `BinTree`
-* **Deng 5.4**: punto unificado de inorden
-* **Deng 5.6**: mantenimiento de alturas
-* **Deng 5.11**, **5.12**, **5.13**: recorridos recursivos
-* **Deng 5.16**: sucesor inorder
-* **Deng 5.20**: recorrido por niveles
+* **Deng**: base enlazada con `BinNode` y `BinTree`
+* **Deng**: punto unificado de inorden
+* **Deng**: mantenimiento de alturas
+* **Deng**: recorridos recursivos
+* **Deng**: sucesor inorder
+* **Deng**: recorrido por niveles
 * **Morin `BinaryTree`**: profundidad, altura, navegación y recorrido inorder
 * **Morin `BinaryHeap`**: representación implícita en arreglo y operaciones de prioridad
 * **Morin `BinarySearchTree`**: búsqueda, inserción, borrado, `splice` y rotaciones
