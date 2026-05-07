@@ -2392,146 +2392,6 @@ build Semana3/sem3_test_public_compare.exe: CXX_EXECUTABLE_LINKER__sem3_test_pub
   TARGET_PDB = sem3_test_public_compare.exe.dbg
   TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_test_public_compare.dir
 
-# =============================================================================
-# Object build statements for EXECUTABLE target sem3_demo_deng_list
-
-
-#############################################
-# Order-only phony target for sem3_demo_deng_list
-
-build cmake_object_order_depends_target_sem3_demo_deng_list: phony || .
-
-build Semana3/CMakeFiles/sem3_demo_deng_list.dir/demos/demo_deng_list.cpp.obj: CXX_COMPILER__sem3_demo_deng_list_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/demos/demo_deng_list.cpp || cmake_object_order_depends_target_sem3_demo_deng_list
-  DEP_FILE = Semana3\CMakeFiles\sem3_demo_deng_list.dir\demos\demo_deng_list.cpp.obj.d
-  FLAGS = -std=c++17
-  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/include
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_demo_deng_list.dir
-  OBJECT_FILE_DIR = Semana3\CMakeFiles\sem3_demo_deng_list.dir\demos
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_demo_deng_list.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sem3_demo_deng_list
-
-
-#############################################
-# Link the executable Semana3\sem3_demo_deng_list.exe
-
-build Semana3/sem3_demo_deng_list.exe: CXX_EXECUTABLE_LINKER__sem3_demo_deng_list_ Semana3/CMakeFiles/sem3_demo_deng_list.dir/demos/demo_deng_list.cpp.obj
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_demo_deng_list.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Semana3\sem3_demo_deng_list.exe
-  TARGET_IMPLIB = Semana3\libsem3_demo_deng_list.dll.a
-  TARGET_PDB = sem3_demo_deng_list.exe.dbg
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_demo_deng_list.dir
-
-# =============================================================================
-# Object build statements for EXECUTABLE target sem3_demo_morin_deng_bridge
-
-
-#############################################
-# Order-only phony target for sem3_demo_morin_deng_bridge
-
-build cmake_object_order_depends_target_sem3_demo_morin_deng_bridge: phony || .
-
-build Semana3/CMakeFiles/sem3_demo_morin_deng_bridge.dir/demos/demo_morin_deng_bridge.cpp.obj: CXX_COMPILER__sem3_demo_morin_deng_bridge_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/demos/demo_morin_deng_bridge.cpp || cmake_object_order_depends_target_sem3_demo_morin_deng_bridge
-  DEP_FILE = Semana3\CMakeFiles\sem3_demo_morin_deng_bridge.dir\demos\demo_morin_deng_bridge.cpp.obj.d
-  FLAGS = -std=c++17
-  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/include
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_demo_morin_deng_bridge.dir
-  OBJECT_FILE_DIR = Semana3\CMakeFiles\sem3_demo_morin_deng_bridge.dir\demos
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_demo_morin_deng_bridge.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sem3_demo_morin_deng_bridge
-
-
-#############################################
-# Link the executable Semana3\sem3_demo_morin_deng_bridge.exe
-
-build Semana3/sem3_demo_morin_deng_bridge.exe: CXX_EXECUTABLE_LINKER__sem3_demo_morin_deng_bridge_ Semana3/CMakeFiles/sem3_demo_morin_deng_bridge.dir/demos/demo_morin_deng_bridge.cpp.obj
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_demo_morin_deng_bridge.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Semana3\sem3_demo_morin_deng_bridge.exe
-  TARGET_IMPLIB = Semana3\libsem3_demo_morin_deng_bridge.dll.a
-  TARGET_PDB = sem3_demo_morin_deng_bridge.exe.dbg
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_demo_morin_deng_bridge.dir
-
-# =============================================================================
-# Object build statements for EXECUTABLE target sem3_test_public_deng
-
-
-#############################################
-# Order-only phony target for sem3_test_public_deng
-
-build cmake_object_order_depends_target_sem3_test_public_deng: phony || .
-
-build Semana3/CMakeFiles/sem3_test_public_deng.dir/pruebas_publicas/test_public_deng_bridge.cpp.obj: CXX_COMPILER__sem3_test_public_deng_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/pruebas_publicas/test_public_deng_bridge.cpp || cmake_object_order_depends_target_sem3_test_public_deng
-  DEP_FILE = Semana3\CMakeFiles\sem3_test_public_deng.dir\pruebas_publicas\test_public_deng_bridge.cpp.obj.d
-  FLAGS = -std=c++17
-  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/include
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_test_public_deng.dir
-  OBJECT_FILE_DIR = Semana3\CMakeFiles\sem3_test_public_deng.dir\pruebas_publicas
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_test_public_deng.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sem3_test_public_deng
-
-
-#############################################
-# Link the executable Semana3\sem3_test_public_deng.exe
-
-build Semana3/sem3_test_public_deng.exe: CXX_EXECUTABLE_LINKER__sem3_test_public_deng_ Semana3/CMakeFiles/sem3_test_public_deng.dir/pruebas_publicas/test_public_deng_bridge.cpp.obj
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_test_public_deng.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Semana3\sem3_test_public_deng.exe
-  TARGET_IMPLIB = Semana3\libsem3_test_public_deng.dll.a
-  TARGET_PDB = sem3_test_public_deng.exe.dbg
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_test_public_deng.dir
-
-# =============================================================================
-# Object build statements for EXECUTABLE target sem3_test_internal_deng
-
-
-#############################################
-# Order-only phony target for sem3_test_internal_deng
-
-build cmake_object_order_depends_target_sem3_test_internal_deng: phony || .
-
-build Semana3/CMakeFiles/sem3_test_internal_deng.dir/pruebas_internas/test_internal_deng_algorithms.cpp.obj: CXX_COMPILER__sem3_test_internal_deng_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/pruebas_internas/test_internal_deng_algorithms.cpp || cmake_object_order_depends_target_sem3_test_internal_deng
-  DEP_FILE = Semana3\CMakeFiles\sem3_test_internal_deng.dir\pruebas_internas\test_internal_deng_algorithms.cpp.obj.d
-  FLAGS = -std=c++17
-  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/include
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_test_internal_deng.dir
-  OBJECT_FILE_DIR = Semana3\CMakeFiles\sem3_test_internal_deng.dir\pruebas_internas
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_test_internal_deng.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sem3_test_internal_deng
-
-
-#############################################
-# Link the executable Semana3\sem3_test_internal_deng.exe
-
-build Semana3/sem3_test_internal_deng.exe: CXX_EXECUTABLE_LINKER__sem3_test_internal_deng_ Semana3/CMakeFiles/sem3_test_internal_deng.dir/pruebas_internas/test_internal_deng_algorithms.cpp.obj
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = Semana3\CMakeFiles\sem3_test_internal_deng.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Semana3\sem3_test_internal_deng.exe
-  TARGET_IMPLIB = Semana3\libsem3_test_internal_deng.dll.a
-  TARGET_PDB = sem3_test_internal_deng.exe.dbg
-  TARGET_SUPPORT_DIR = Semana3\CMakeFiles\sem3_test_internal_deng.dir
-
 
 #############################################
 # Utility command for test
@@ -2566,6 +2426,1956 @@ build Semana3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build Semana3/rebuild_cache: phony Semana3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_demo_stack_queue
+
+
+#############################################
+# Order-only phony target for sem4_demo_stack_queue
+
+build cmake_object_order_depends_target_sem4_demo_stack_queue: phony || .
+
+build Semana4/CMakeFiles/sem4_demo_stack_queue.dir/demos/demo_stack_queue.cpp.obj: CXX_COMPILER__sem4_demo_stack_queue_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/demos/demo_stack_queue.cpp || cmake_object_order_depends_target_sem4_demo_stack_queue
+  DEP_FILE = Semana4\CMakeFiles\sem4_demo_stack_queue.dir\demos\demo_stack_queue.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_stack_queue.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_demo_stack_queue.dir\demos
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_stack_queue.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_demo_stack_queue
+
+
+#############################################
+# Link the executable Semana4\sem4_demo_stack_queue.exe
+
+build Semana4/sem4_demo_stack_queue.exe: CXX_EXECUTABLE_LINKER__sem4_demo_stack_queue_ Semana4/CMakeFiles/sem4_demo_stack_queue.dir/demos/demo_stack_queue.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_stack_queue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_demo_stack_queue.exe
+  TARGET_IMPLIB = Semana4\libsem4_demo_stack_queue.dll.a
+  TARGET_PDB = sem4_demo_stack_queue.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_stack_queue.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_demo_base_conversion
+
+
+#############################################
+# Order-only phony target for sem4_demo_base_conversion
+
+build cmake_object_order_depends_target_sem4_demo_base_conversion: phony || .
+
+build Semana4/CMakeFiles/sem4_demo_base_conversion.dir/demos/demo_base_conversion.cpp.obj: CXX_COMPILER__sem4_demo_base_conversion_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/demos/demo_base_conversion.cpp || cmake_object_order_depends_target_sem4_demo_base_conversion
+  DEP_FILE = Semana4\CMakeFiles\sem4_demo_base_conversion.dir\demos\demo_base_conversion.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_base_conversion.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_demo_base_conversion.dir\demos
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_base_conversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_demo_base_conversion
+
+
+#############################################
+# Link the executable Semana4\sem4_demo_base_conversion.exe
+
+build Semana4/sem4_demo_base_conversion.exe: CXX_EXECUTABLE_LINKER__sem4_demo_base_conversion_ Semana4/CMakeFiles/sem4_demo_base_conversion.dir/demos/demo_base_conversion.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_base_conversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_demo_base_conversion.exe
+  TARGET_IMPLIB = Semana4\libsem4_demo_base_conversion.dll.a
+  TARGET_PDB = sem4_demo_base_conversion.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_base_conversion.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_demo_paren_rpn
+
+
+#############################################
+# Order-only phony target for sem4_demo_paren_rpn
+
+build cmake_object_order_depends_target_sem4_demo_paren_rpn: phony || .
+
+build Semana4/CMakeFiles/sem4_demo_paren_rpn.dir/demos/demo_paren_rpn.cpp.obj: CXX_COMPILER__sem4_demo_paren_rpn_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/demos/demo_paren_rpn.cpp || cmake_object_order_depends_target_sem4_demo_paren_rpn
+  DEP_FILE = Semana4\CMakeFiles\sem4_demo_paren_rpn.dir\demos\demo_paren_rpn.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_paren_rpn.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_demo_paren_rpn.dir\demos
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_paren_rpn.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_demo_paren_rpn
+
+
+#############################################
+# Link the executable Semana4\sem4_demo_paren_rpn.exe
+
+build Semana4/sem4_demo_paren_rpn.exe: CXX_EXECUTABLE_LINKER__sem4_demo_paren_rpn_ Semana4/CMakeFiles/sem4_demo_paren_rpn.dir/demos/demo_paren_rpn.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_paren_rpn.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_demo_paren_rpn.exe
+  TARGET_IMPLIB = Semana4\libsem4_demo_paren_rpn.dll.a
+  TARGET_PDB = sem4_demo_paren_rpn.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_paren_rpn.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_demo_nqueens
+
+
+#############################################
+# Order-only phony target for sem4_demo_nqueens
+
+build cmake_object_order_depends_target_sem4_demo_nqueens: phony || .
+
+build Semana4/CMakeFiles/sem4_demo_nqueens.dir/demos/demo_nqueens.cpp.obj: CXX_COMPILER__sem4_demo_nqueens_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/demos/demo_nqueens.cpp || cmake_object_order_depends_target_sem4_demo_nqueens
+  DEP_FILE = Semana4\CMakeFiles\sem4_demo_nqueens.dir\demos\demo_nqueens.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_nqueens.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_demo_nqueens.dir\demos
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_nqueens.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_demo_nqueens
+
+
+#############################################
+# Link the executable Semana4\sem4_demo_nqueens.exe
+
+build Semana4/sem4_demo_nqueens.exe: CXX_EXECUTABLE_LINKER__sem4_demo_nqueens_ Semana4/CMakeFiles/sem4_demo_nqueens.dir/demos/demo_nqueens.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_nqueens.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_demo_nqueens.exe
+  TARGET_IMPLIB = Semana4\libsem4_demo_nqueens.dll.a
+  TARGET_PDB = sem4_demo_nqueens.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_nqueens.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_demo_maze
+
+
+#############################################
+# Order-only phony target for sem4_demo_maze
+
+build cmake_object_order_depends_target_sem4_demo_maze: phony || .
+
+build Semana4/CMakeFiles/sem4_demo_maze.dir/demos/demo_maze.cpp.obj: CXX_COMPILER__sem4_demo_maze_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/demos/demo_maze.cpp || cmake_object_order_depends_target_sem4_demo_maze
+  DEP_FILE = Semana4\CMakeFiles\sem4_demo_maze.dir\demos\demo_maze.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_maze.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_demo_maze.dir\demos
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_maze.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_demo_maze
+
+
+#############################################
+# Link the executable Semana4\sem4_demo_maze.exe
+
+build Semana4/sem4_demo_maze.exe: CXX_EXECUTABLE_LINKER__sem4_demo_maze_ Semana4/CMakeFiles/sem4_demo_maze.dir/demos/demo_maze.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_maze.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_demo_maze.exe
+  TARGET_IMPLIB = Semana4\libsem4_demo_maze.dll.a
+  TARGET_PDB = sem4_demo_maze.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_maze.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_demo_bank
+
+
+#############################################
+# Order-only phony target for sem4_demo_bank
+
+build cmake_object_order_depends_target_sem4_demo_bank: phony || .
+
+build Semana4/CMakeFiles/sem4_demo_bank.dir/demos/demo_bank.cpp.obj: CXX_COMPILER__sem4_demo_bank_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/demos/demo_bank.cpp || cmake_object_order_depends_target_sem4_demo_bank
+  DEP_FILE = Semana4\CMakeFiles\sem4_demo_bank.dir\demos\demo_bank.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_bank.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_demo_bank.dir\demos
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_bank.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_demo_bank
+
+
+#############################################
+# Link the executable Semana4\sem4_demo_bank.exe
+
+build Semana4/sem4_demo_bank.exe: CXX_EXECUTABLE_LINKER__sem4_demo_bank_ Semana4/CMakeFiles/sem4_demo_bank.dir/demos/demo_bank.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_bank.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_demo_bank.exe
+  TARGET_IMPLIB = Semana4\libsem4_demo_bank.dll.a
+  TARGET_PDB = sem4_demo_bank.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_bank.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_demo_capitulo4_panorama
+
+
+#############################################
+# Order-only phony target for sem4_demo_capitulo4_panorama
+
+build cmake_object_order_depends_target_sem4_demo_capitulo4_panorama: phony || .
+
+build Semana4/CMakeFiles/sem4_demo_capitulo4_panorama.dir/demos/demo_capitulo4_panorama.cpp.obj: CXX_COMPILER__sem4_demo_capitulo4_panorama_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/demos/demo_capitulo4_panorama.cpp || cmake_object_order_depends_target_sem4_demo_capitulo4_panorama
+  DEP_FILE = Semana4\CMakeFiles\sem4_demo_capitulo4_panorama.dir\demos\demo_capitulo4_panorama.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_capitulo4_panorama.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_demo_capitulo4_panorama.dir\demos
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_capitulo4_panorama.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_demo_capitulo4_panorama
+
+
+#############################################
+# Link the executable Semana4\sem4_demo_capitulo4_panorama.exe
+
+build Semana4/sem4_demo_capitulo4_panorama.exe: CXX_EXECUTABLE_LINKER__sem4_demo_capitulo4_panorama_ Semana4/CMakeFiles/sem4_demo_capitulo4_panorama.dir/demos/demo_capitulo4_panorama.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_demo_capitulo4_panorama.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_demo_capitulo4_panorama.exe
+  TARGET_IMPLIB = Semana4\libsem4_demo_capitulo4_panorama.dll.a
+  TARGET_PDB = sem4_demo_capitulo4_panorama.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_demo_capitulo4_panorama.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_test_public
+
+
+#############################################
+# Order-only phony target for sem4_test_public
+
+build cmake_object_order_depends_target_sem4_test_public: phony || .
+
+build Semana4/CMakeFiles/sem4_test_public.dir/pruebas_publicas/test_public_week4.cpp.obj: CXX_COMPILER__sem4_test_public_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/pruebas_publicas/test_public_week4.cpp || cmake_object_order_depends_target_sem4_test_public
+  DEP_FILE = Semana4\CMakeFiles\sem4_test_public.dir\pruebas_publicas\test_public_week4.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_test_public.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_test_public.dir\pruebas_publicas
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_test_public.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_test_public
+
+
+#############################################
+# Link the executable Semana4\sem4_test_public.exe
+
+build Semana4/sem4_test_public.exe: CXX_EXECUTABLE_LINKER__sem4_test_public_ Semana4/CMakeFiles/sem4_test_public.dir/pruebas_publicas/test_public_week4.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_test_public.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_test_public.exe
+  TARGET_IMPLIB = Semana4\libsem4_test_public.dll.a
+  TARGET_PDB = sem4_test_public.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_test_public.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem4_test_internal
+
+
+#############################################
+# Order-only phony target for sem4_test_internal
+
+build cmake_object_order_depends_target_sem4_test_internal: phony || .
+
+build Semana4/CMakeFiles/sem4_test_internal.dir/pruebas_internas/test_internal_week4.cpp.obj: CXX_COMPILER__sem4_test_internal_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/pruebas_internas/test_internal_week4.cpp || cmake_object_order_depends_target_sem4_test_internal
+  DEP_FILE = Semana4\CMakeFiles\sem4_test_internal.dir\pruebas_internas\test_internal_week4.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/include
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_test_internal.dir
+  OBJECT_FILE_DIR = Semana4\CMakeFiles\sem4_test_internal.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_test_internal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem4_test_internal
+
+
+#############################################
+# Link the executable Semana4\sem4_test_internal.exe
+
+build Semana4/sem4_test_internal.exe: CXX_EXECUTABLE_LINKER__sem4_test_internal_ Semana4/CMakeFiles/sem4_test_internal.dir/pruebas_internas/test_internal_week4.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana4\CMakeFiles\sem4_test_internal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana4\sem4_test_internal.exe
+  TARGET_IMPLIB = Semana4\libsem4_test_internal.dll.a
+  TARGET_PDB = sem4_test_internal.exe.dbg
+  TARGET_SUPPORT_DIR = Semana4\CMakeFiles\sem4_test_internal.dir
+
+
+#############################################
+# Utility command for test
+
+build Semana4/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana4 && C:\msys64\ucrt64\bin\ctest.exe "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build Semana4/test: phony Semana4/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Semana4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana4 && C:\msys64\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Semana4/edit_cache: phony Semana4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Semana4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana4 && C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -SC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232 -BC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Semana4/rebuild_cache: phony Semana4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem5_demo_binary_tree
+
+
+#############################################
+# Order-only phony target for sem5_demo_binary_tree
+
+build cmake_object_order_depends_target_sem5_demo_binary_tree: phony || .
+
+build Semana5/CMakeFiles/sem5_demo_binary_tree.dir/demos/demo_binary_tree.cpp.obj: CXX_COMPILER__sem5_demo_binary_tree_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/demos/demo_binary_tree.cpp || cmake_object_order_depends_target_sem5_demo_binary_tree
+  DEP_FILE = Semana5\CMakeFiles\sem5_demo_binary_tree.dir\demos\demo_binary_tree.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/include
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_binary_tree.dir
+  OBJECT_FILE_DIR = Semana5\CMakeFiles\sem5_demo_binary_tree.dir\demos
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_binary_tree.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem5_demo_binary_tree
+
+
+#############################################
+# Link the executable Semana5\sem5_demo_binary_tree.exe
+
+build Semana5/sem5_demo_binary_tree.exe: CXX_EXECUTABLE_LINKER__sem5_demo_binary_tree_ Semana5/CMakeFiles/sem5_demo_binary_tree.dir/demos/demo_binary_tree.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_binary_tree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana5\sem5_demo_binary_tree.exe
+  TARGET_IMPLIB = Semana5\libsem5_demo_binary_tree.dll.a
+  TARGET_PDB = sem5_demo_binary_tree.exe.dbg
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_binary_tree.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem5_demo_bst
+
+
+#############################################
+# Order-only phony target for sem5_demo_bst
+
+build cmake_object_order_depends_target_sem5_demo_bst: phony || .
+
+build Semana5/CMakeFiles/sem5_demo_bst.dir/demos/demo_bst.cpp.obj: CXX_COMPILER__sem5_demo_bst_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/demos/demo_bst.cpp || cmake_object_order_depends_target_sem5_demo_bst
+  DEP_FILE = Semana5\CMakeFiles\sem5_demo_bst.dir\demos\demo_bst.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/include
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_bst.dir
+  OBJECT_FILE_DIR = Semana5\CMakeFiles\sem5_demo_bst.dir\demos
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_bst.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem5_demo_bst
+
+
+#############################################
+# Link the executable Semana5\sem5_demo_bst.exe
+
+build Semana5/sem5_demo_bst.exe: CXX_EXECUTABLE_LINKER__sem5_demo_bst_ Semana5/CMakeFiles/sem5_demo_bst.dir/demos/demo_bst.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_bst.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana5\sem5_demo_bst.exe
+  TARGET_IMPLIB = Semana5\libsem5_demo_bst.dll.a
+  TARGET_PDB = sem5_demo_bst.exe.dbg
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_bst.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem5_demo_heap
+
+
+#############################################
+# Order-only phony target for sem5_demo_heap
+
+build cmake_object_order_depends_target_sem5_demo_heap: phony || .
+
+build Semana5/CMakeFiles/sem5_demo_heap.dir/demos/demo_heap.cpp.obj: CXX_COMPILER__sem5_demo_heap_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/demos/demo_heap.cpp || cmake_object_order_depends_target_sem5_demo_heap
+  DEP_FILE = Semana5\CMakeFiles\sem5_demo_heap.dir\demos\demo_heap.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/include
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_heap.dir
+  OBJECT_FILE_DIR = Semana5\CMakeFiles\sem5_demo_heap.dir\demos
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_heap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem5_demo_heap
+
+
+#############################################
+# Link the executable Semana5\sem5_demo_heap.exe
+
+build Semana5/sem5_demo_heap.exe: CXX_EXECUTABLE_LINKER__sem5_demo_heap_ Semana5/CMakeFiles/sem5_demo_heap.dir/demos/demo_heap.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_heap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana5\sem5_demo_heap.exe
+  TARGET_IMPLIB = Semana5\libsem5_demo_heap.dll.a
+  TARGET_PDB = sem5_demo_heap.exe.dbg
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_heap.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem5_demo_capitulo5_panorama
+
+
+#############################################
+# Order-only phony target for sem5_demo_capitulo5_panorama
+
+build cmake_object_order_depends_target_sem5_demo_capitulo5_panorama: phony || .
+
+build Semana5/CMakeFiles/sem5_demo_capitulo5_panorama.dir/demos/demo_capitulo5_panorama.cpp.obj: CXX_COMPILER__sem5_demo_capitulo5_panorama_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/demos/demo_capitulo5_panorama.cpp || cmake_object_order_depends_target_sem5_demo_capitulo5_panorama
+  DEP_FILE = Semana5\CMakeFiles\sem5_demo_capitulo5_panorama.dir\demos\demo_capitulo5_panorama.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/include
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_capitulo5_panorama.dir
+  OBJECT_FILE_DIR = Semana5\CMakeFiles\sem5_demo_capitulo5_panorama.dir\demos
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_capitulo5_panorama.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem5_demo_capitulo5_panorama
+
+
+#############################################
+# Link the executable Semana5\sem5_demo_capitulo5_panorama.exe
+
+build Semana5/sem5_demo_capitulo5_panorama.exe: CXX_EXECUTABLE_LINKER__sem5_demo_capitulo5_panorama_ Semana5/CMakeFiles/sem5_demo_capitulo5_panorama.dir/demos/demo_capitulo5_panorama.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_demo_capitulo5_panorama.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana5\sem5_demo_capitulo5_panorama.exe
+  TARGET_IMPLIB = Semana5\libsem5_demo_capitulo5_panorama.dll.a
+  TARGET_PDB = sem5_demo_capitulo5_panorama.exe.dbg
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_demo_capitulo5_panorama.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem5_test_public
+
+
+#############################################
+# Order-only phony target for sem5_test_public
+
+build cmake_object_order_depends_target_sem5_test_public: phony || .
+
+build Semana5/CMakeFiles/sem5_test_public.dir/pruebas_publicas/test_public_week5.cpp.obj: CXX_COMPILER__sem5_test_public_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/pruebas_publicas/test_public_week5.cpp || cmake_object_order_depends_target_sem5_test_public
+  DEP_FILE = Semana5\CMakeFiles\sem5_test_public.dir\pruebas_publicas\test_public_week5.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/include
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_test_public.dir
+  OBJECT_FILE_DIR = Semana5\CMakeFiles\sem5_test_public.dir\pruebas_publicas
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_test_public.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem5_test_public
+
+
+#############################################
+# Link the executable Semana5\sem5_test_public.exe
+
+build Semana5/sem5_test_public.exe: CXX_EXECUTABLE_LINKER__sem5_test_public_ Semana5/CMakeFiles/sem5_test_public.dir/pruebas_publicas/test_public_week5.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_test_public.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana5\sem5_test_public.exe
+  TARGET_IMPLIB = Semana5\libsem5_test_public.dll.a
+  TARGET_PDB = sem5_test_public.exe.dbg
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_test_public.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem5_test_internal
+
+
+#############################################
+# Order-only phony target for sem5_test_internal
+
+build cmake_object_order_depends_target_sem5_test_internal: phony || .
+
+build Semana5/CMakeFiles/sem5_test_internal.dir/pruebas_internas/test_internal_week5.cpp.obj: CXX_COMPILER__sem5_test_internal_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/pruebas_internas/test_internal_week5.cpp || cmake_object_order_depends_target_sem5_test_internal
+  DEP_FILE = Semana5\CMakeFiles\sem5_test_internal.dir\pruebas_internas\test_internal_week5.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/include
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_test_internal.dir
+  OBJECT_FILE_DIR = Semana5\CMakeFiles\sem5_test_internal.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_test_internal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem5_test_internal
+
+
+#############################################
+# Link the executable Semana5\sem5_test_internal.exe
+
+build Semana5/sem5_test_internal.exe: CXX_EXECUTABLE_LINKER__sem5_test_internal_ Semana5/CMakeFiles/sem5_test_internal.dir/pruebas_internas/test_internal_week5.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana5\CMakeFiles\sem5_test_internal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana5\sem5_test_internal.exe
+  TARGET_IMPLIB = Semana5\libsem5_test_internal.dll.a
+  TARGET_PDB = sem5_test_internal.exe.dbg
+  TARGET_SUPPORT_DIR = Semana5\CMakeFiles\sem5_test_internal.dir
+
+
+#############################################
+# Utility command for test
+
+build Semana5/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana5 && C:\msys64\ucrt64\bin\ctest.exe "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build Semana5/test: phony Semana5/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Semana5/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana5 && C:\msys64\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Semana5/edit_cache: phony Semana5/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Semana5/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana5 && C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -SC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232 -BC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Semana5/rebuild_cache: phony Semana5/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_pq_complheap_basico
+
+
+#############################################
+# Order-only phony target for sem6_demo_pq_complheap_basico
+
+build cmake_object_order_depends_target_sem6_demo_pq_complheap_basico: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_pq_complheap_basico.dir/demos/demo_pq_complheap_basico.cpp.obj: CXX_COMPILER__sem6_demo_pq_complheap_basico_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_pq_complheap_basico.cpp || cmake_object_order_depends_target_sem6_demo_pq_complheap_basico
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_pq_complheap_basico.dir\demos\demo_pq_complheap_basico.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_pq_complheap_basico.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_pq_complheap_basico.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_pq_complheap_basico.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_pq_complheap_basico
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_pq_complheap_basico.exe
+
+build Semana6/sem6_demo_pq_complheap_basico.exe: CXX_EXECUTABLE_LINKER__sem6_demo_pq_complheap_basico_ Semana6/CMakeFiles/sem6_demo_pq_complheap_basico.dir/demos/demo_pq_complheap_basico.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_pq_complheap_basico.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_pq_complheap_basico.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_pq_complheap_basico.dll.a
+  TARGET_PDB = sem6_demo_pq_complheap_basico.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_pq_complheap_basico.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_heapify_floyd
+
+
+#############################################
+# Order-only phony target for sem6_demo_heapify_floyd
+
+build cmake_object_order_depends_target_sem6_demo_heapify_floyd: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_heapify_floyd.dir/demos/demo_heapify_floyd.cpp.obj: CXX_COMPILER__sem6_demo_heapify_floyd_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_heapify_floyd.cpp || cmake_object_order_depends_target_sem6_demo_heapify_floyd
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_heapify_floyd.dir\demos\demo_heapify_floyd.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_heapify_floyd.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_heapify_floyd.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_heapify_floyd.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_heapify_floyd
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_heapify_floyd.exe
+
+build Semana6/sem6_demo_heapify_floyd.exe: CXX_EXECUTABLE_LINKER__sem6_demo_heapify_floyd_ Semana6/CMakeFiles/sem6_demo_heapify_floyd.dir/demos/demo_heapify_floyd.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_heapify_floyd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_heapify_floyd.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_heapify_floyd.dll.a
+  TARGET_PDB = sem6_demo_heapify_floyd.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_heapify_floyd.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_heapsort
+
+
+#############################################
+# Order-only phony target for sem6_demo_heapsort
+
+build cmake_object_order_depends_target_sem6_demo_heapsort: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_heapsort.dir/demos/demo_heapsort.cpp.obj: CXX_COMPILER__sem6_demo_heapsort_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_heapsort.cpp || cmake_object_order_depends_target_sem6_demo_heapsort
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_heapsort.dir\demos\demo_heapsort.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_heapsort.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_heapsort.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_heapsort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_heapsort
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_heapsort.exe
+
+build Semana6/sem6_demo_heapsort.exe: CXX_EXECUTABLE_LINKER__sem6_demo_heapsort_ Semana6/CMakeFiles/sem6_demo_heapsort.dir/demos/demo_heapsort.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_heapsort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_heapsort.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_heapsort.dll.a
+  TARGET_PDB = sem6_demo_heapsort.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_heapsort.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_left_heap_merge
+
+
+#############################################
+# Order-only phony target for sem6_demo_left_heap_merge
+
+build cmake_object_order_depends_target_sem6_demo_left_heap_merge: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_left_heap_merge.dir/demos/demo_left_heap_merge.cpp.obj: CXX_COMPILER__sem6_demo_left_heap_merge_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_left_heap_merge.cpp || cmake_object_order_depends_target_sem6_demo_left_heap_merge
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_left_heap_merge.dir\demos\demo_left_heap_merge.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_left_heap_merge.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_left_heap_merge.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_left_heap_merge.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_left_heap_merge
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_left_heap_merge.exe
+
+build Semana6/sem6_demo_left_heap_merge.exe: CXX_EXECUTABLE_LINKER__sem6_demo_left_heap_merge_ Semana6/CMakeFiles/sem6_demo_left_heap_merge.dir/demos/demo_left_heap_merge.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_left_heap_merge.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_left_heap_merge.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_left_heap_merge.dll.a
+  TARGET_PDB = sem6_demo_left_heap_merge.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_left_heap_merge.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_huffman
+
+
+#############################################
+# Order-only phony target for sem6_demo_huffman
+
+build cmake_object_order_depends_target_sem6_demo_huffman: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_huffman.dir/demos/demo_huffman.cpp.obj: CXX_COMPILER__sem6_demo_huffman_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_huffman.cpp || cmake_object_order_depends_target_sem6_demo_huffman
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_huffman.dir\demos\demo_huffman.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_huffman.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_huffman.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_huffman.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_huffman
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_huffman.exe
+
+build Semana6/sem6_demo_huffman.exe: CXX_EXECUTABLE_LINKER__sem6_demo_huffman_ Semana6/CMakeFiles/sem6_demo_huffman.dir/demos/demo_huffman.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_huffman.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_huffman.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_huffman.dll.a
+  TARGET_PDB = sem6_demo_huffman.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_huffman.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_compare_with_semana5
+
+
+#############################################
+# Order-only phony target for sem6_demo_compare_with_semana5
+
+build cmake_object_order_depends_target_sem6_demo_compare_with_semana5: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_compare_with_semana5.dir/demos/demo_compare_with_semana5.cpp.obj: CXX_COMPILER__sem6_demo_compare_with_semana5_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_compare_with_semana5.cpp || cmake_object_order_depends_target_sem6_demo_compare_with_semana5
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_compare_with_semana5.dir\demos\demo_compare_with_semana5.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_compare_with_semana5.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_compare_with_semana5.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_compare_with_semana5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_compare_with_semana5
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_compare_with_semana5.exe
+
+build Semana6/sem6_demo_compare_with_semana5.exe: CXX_EXECUTABLE_LINKER__sem6_demo_compare_with_semana5_ Semana6/CMakeFiles/sem6_demo_compare_with_semana5.dir/demos/demo_compare_with_semana5.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_compare_with_semana5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_compare_with_semana5.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_compare_with_semana5.dll.a
+  TARGET_PDB = sem6_demo_compare_with_semana5.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_compare_with_semana5.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_bst_rotations
+
+
+#############################################
+# Order-only phony target for sem6_demo_bst_rotations
+
+build cmake_object_order_depends_target_sem6_demo_bst_rotations: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_bst_rotations.dir/demos/demo_bst_rotations.cpp.obj: CXX_COMPILER__sem6_demo_bst_rotations_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_bst_rotations.cpp || cmake_object_order_depends_target_sem6_demo_bst_rotations
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_bst_rotations.dir\demos\demo_bst_rotations.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_bst_rotations.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_bst_rotations.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_bst_rotations.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_bst_rotations
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_bst_rotations.exe
+
+build Semana6/sem6_demo_bst_rotations.exe: CXX_EXECUTABLE_LINKER__sem6_demo_bst_rotations_ Semana6/CMakeFiles/sem6_demo_bst_rotations.dir/demos/demo_bst_rotations.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_bst_rotations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_bst_rotations.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_bst_rotations.dll.a
+  TARGET_PDB = sem6_demo_bst_rotations.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_bst_rotations.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_treap_basico
+
+
+#############################################
+# Order-only phony target for sem6_demo_treap_basico
+
+build cmake_object_order_depends_target_sem6_demo_treap_basico: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_treap_basico.dir/demos/demo_treap_basico.cpp.obj: CXX_COMPILER__sem6_demo_treap_basico_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_treap_basico.cpp || cmake_object_order_depends_target_sem6_demo_treap_basico
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_treap_basico.dir\demos\demo_treap_basico.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_treap_basico.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_treap_basico.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_treap_basico.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_treap_basico
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_treap_basico.exe
+
+build Semana6/sem6_demo_treap_basico.exe: CXX_EXECUTABLE_LINKER__sem6_demo_treap_basico_ Semana6/CMakeFiles/sem6_demo_treap_basico.dir/demos/demo_treap_basico.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_treap_basico.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_treap_basico.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_treap_basico.dll.a
+  TARGET_PDB = sem6_demo_treap_basico.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_treap_basico.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_demo_capitulo6_panorama
+
+
+#############################################
+# Order-only phony target for sem6_demo_capitulo6_panorama
+
+build cmake_object_order_depends_target_sem6_demo_capitulo6_panorama: phony || .
+
+build Semana6/CMakeFiles/sem6_demo_capitulo6_panorama.dir/demos/demo_capitulo6_panorama.cpp.obj: CXX_COMPILER__sem6_demo_capitulo6_panorama_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/demos/demo_capitulo6_panorama.cpp || cmake_object_order_depends_target_sem6_demo_capitulo6_panorama
+  DEP_FILE = Semana6\CMakeFiles\sem6_demo_capitulo6_panorama.dir\demos\demo_capitulo6_panorama.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_capitulo6_panorama.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_demo_capitulo6_panorama.dir\demos
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_capitulo6_panorama.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_demo_capitulo6_panorama
+
+
+#############################################
+# Link the executable Semana6\sem6_demo_capitulo6_panorama.exe
+
+build Semana6/sem6_demo_capitulo6_panorama.exe: CXX_EXECUTABLE_LINKER__sem6_demo_capitulo6_panorama_ Semana6/CMakeFiles/sem6_demo_capitulo6_panorama.dir/demos/demo_capitulo6_panorama.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_demo_capitulo6_panorama.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_demo_capitulo6_panorama.exe
+  TARGET_IMPLIB = Semana6\libsem6_demo_capitulo6_panorama.dll.a
+  TARGET_PDB = sem6_demo_capitulo6_panorama.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_demo_capitulo6_panorama.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_test_public
+
+
+#############################################
+# Order-only phony target for sem6_test_public
+
+build cmake_object_order_depends_target_sem6_test_public: phony || .
+
+build Semana6/CMakeFiles/sem6_test_public.dir/pruebas_publicas/test_public_week6.cpp.obj: CXX_COMPILER__sem6_test_public_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/pruebas_publicas/test_public_week6.cpp || cmake_object_order_depends_target_sem6_test_public
+  DEP_FILE = Semana6\CMakeFiles\sem6_test_public.dir\pruebas_publicas\test_public_week6.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_test_public.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_test_public.dir\pruebas_publicas
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_test_public.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_test_public
+
+
+#############################################
+# Link the executable Semana6\sem6_test_public.exe
+
+build Semana6/sem6_test_public.exe: CXX_EXECUTABLE_LINKER__sem6_test_public_ Semana6/CMakeFiles/sem6_test_public.dir/pruebas_publicas/test_public_week6.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_test_public.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_test_public.exe
+  TARGET_IMPLIB = Semana6\libsem6_test_public.dll.a
+  TARGET_PDB = sem6_test_public.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_test_public.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem6_test_internal
+
+
+#############################################
+# Order-only phony target for sem6_test_internal
+
+build cmake_object_order_depends_target_sem6_test_internal: phony || .
+
+build Semana6/CMakeFiles/sem6_test_internal.dir/pruebas_internas/test_internal_week6.cpp.obj: CXX_COMPILER__sem6_test_internal_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/pruebas_internas/test_internal_week6.cpp || cmake_object_order_depends_target_sem6_test_internal
+  DEP_FILE = Semana6\CMakeFiles\sem6_test_internal.dir\pruebas_internas\test_internal_week6.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/../Semana5/include
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_test_internal.dir
+  OBJECT_FILE_DIR = Semana6\CMakeFiles\sem6_test_internal.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_test_internal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem6_test_internal
+
+
+#############################################
+# Link the executable Semana6\sem6_test_internal.exe
+
+build Semana6/sem6_test_internal.exe: CXX_EXECUTABLE_LINKER__sem6_test_internal_ Semana6/CMakeFiles/sem6_test_internal.dir/pruebas_internas/test_internal_week6.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana6\CMakeFiles\sem6_test_internal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana6\sem6_test_internal.exe
+  TARGET_IMPLIB = Semana6\libsem6_test_internal.dll.a
+  TARGET_PDB = sem6_test_internal.exe.dbg
+  TARGET_SUPPORT_DIR = Semana6\CMakeFiles\sem6_test_internal.dir
+
+
+#############################################
+# Utility command for test
+
+build Semana6/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana6 && C:\msys64\ucrt64\bin\ctest.exe "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build Semana6/test: phony Semana6/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Semana6/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana6 && C:\msys64\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Semana6/edit_cache: phony Semana6/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Semana6/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana6 && C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -SC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232 -BC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Semana6/rebuild_cache: phony Semana6/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_avl_deng_core
+
+
+#############################################
+# Order-only phony target for sem7_demo_avl_deng_core
+
+build cmake_object_order_depends_target_sem7_demo_avl_deng_core: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_avl_deng_core.dir/demos/demo_avl_deng_core.cpp.obj: CXX_COMPILER__sem7_demo_avl_deng_core_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_avl_deng_core.cpp || cmake_object_order_depends_target_sem7_demo_avl_deng_core
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_avl_deng_core.dir\demos\demo_avl_deng_core.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_avl_deng_core.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_avl_deng_core.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_avl_deng_core.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_avl_deng_core
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_avl_deng_core.exe
+
+build Semana7/sem7_demo_avl_deng_core.exe: CXX_EXECUTABLE_LINKER__sem7_demo_avl_deng_core_ Semana7/CMakeFiles/sem7_demo_avl_deng_core.dir/demos/demo_avl_deng_core.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_avl_deng_core.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_avl_deng_core.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_avl_deng_core.dll.a
+  TARGET_PDB = sem7_demo_avl_deng_core.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_avl_deng_core.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_avl_compact_rotations
+
+
+#############################################
+# Order-only phony target for sem7_demo_avl_compact_rotations
+
+build cmake_object_order_depends_target_sem7_demo_avl_compact_rotations: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_avl_compact_rotations.dir/demos/demo_avl_compact_rotations.cpp.obj: CXX_COMPILER__sem7_demo_avl_compact_rotations_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_avl_compact_rotations.cpp || cmake_object_order_depends_target_sem7_demo_avl_compact_rotations
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_avl_compact_rotations.dir\demos\demo_avl_compact_rotations.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_avl_compact_rotations.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_avl_compact_rotations.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_avl_compact_rotations.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_avl_compact_rotations
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_avl_compact_rotations.exe
+
+build Semana7/sem7_demo_avl_compact_rotations.exe: CXX_EXECUTABLE_LINKER__sem7_demo_avl_compact_rotations_ Semana7/CMakeFiles/sem7_demo_avl_compact_rotations.dir/demos/demo_avl_compact_rotations.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_avl_compact_rotations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_avl_compact_rotations.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_avl_compact_rotations.dll.a
+  TARGET_PDB = sem7_demo_avl_compact_rotations.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_avl_compact_rotations.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_bst_deng_vs_avl
+
+
+#############################################
+# Order-only phony target for sem7_demo_bst_deng_vs_avl
+
+build cmake_object_order_depends_target_sem7_demo_bst_deng_vs_avl: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_bst_deng_vs_avl.dir/demos/demo_bst_deng_vs_avl.cpp.obj: CXX_COMPILER__sem7_demo_bst_deng_vs_avl_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_bst_deng_vs_avl.cpp || cmake_object_order_depends_target_sem7_demo_bst_deng_vs_avl
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_bst_deng_vs_avl.dir\demos\demo_bst_deng_vs_avl.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_bst_deng_vs_avl.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_bst_deng_vs_avl.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_bst_deng_vs_avl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_bst_deng_vs_avl
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_bst_deng_vs_avl.exe
+
+build Semana7/sem7_demo_bst_deng_vs_avl.exe: CXX_EXECUTABLE_LINKER__sem7_demo_bst_deng_vs_avl_ Semana7/CMakeFiles/sem7_demo_bst_deng_vs_avl.dir/demos/demo_bst_deng_vs_avl.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_bst_deng_vs_avl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_bst_deng_vs_avl.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_bst_deng_vs_avl.dll.a
+  TARGET_PDB = sem7_demo_bst_deng_vs_avl.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_bst_deng_vs_avl.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_redblack_morin
+
+
+#############################################
+# Order-only phony target for sem7_demo_redblack_morin
+
+build cmake_object_order_depends_target_sem7_demo_redblack_morin: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_redblack_morin.dir/demos/demo_redblack_morin.cpp.obj: CXX_COMPILER__sem7_demo_redblack_morin_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_redblack_morin.cpp || cmake_object_order_depends_target_sem7_demo_redblack_morin
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_redblack_morin.dir\demos\demo_redblack_morin.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_morin.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_redblack_morin.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_morin.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_redblack_morin
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_redblack_morin.exe
+
+build Semana7/sem7_demo_redblack_morin.exe: CXX_EXECUTABLE_LINKER__sem7_demo_redblack_morin_ Semana7/CMakeFiles/sem7_demo_redblack_morin.dir/demos/demo_redblack_morin.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_morin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_redblack_morin.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_redblack_morin.dll.a
+  TARGET_PDB = sem7_demo_redblack_morin.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_morin.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_redblack_llrb
+
+
+#############################################
+# Order-only phony target for sem7_demo_redblack_llrb
+
+build cmake_object_order_depends_target_sem7_demo_redblack_llrb: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_redblack_llrb.dir/demos/demo_redblack_llrb.cpp.obj: CXX_COMPILER__sem7_demo_redblack_llrb_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_redblack_llrb.cpp || cmake_object_order_depends_target_sem7_demo_redblack_llrb
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_redblack_llrb.dir\demos\demo_redblack_llrb.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_llrb.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_redblack_llrb.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_llrb.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_redblack_llrb
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_redblack_llrb.exe
+
+build Semana7/sem7_demo_redblack_llrb.exe: CXX_EXECUTABLE_LINKER__sem7_demo_redblack_llrb_ Semana7/CMakeFiles/sem7_demo_redblack_llrb.dir/demos/demo_redblack_llrb.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_llrb.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_redblack_llrb.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_redblack_llrb.dll.a
+  TARGET_PDB = sem7_demo_redblack_llrb.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_redblack_llrb.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_compare_avl_vs_redblack
+
+
+#############################################
+# Order-only phony target for sem7_demo_compare_avl_vs_redblack
+
+build cmake_object_order_depends_target_sem7_demo_compare_avl_vs_redblack: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_compare_avl_vs_redblack.dir/demos/demo_compare_avl_vs_redblack.cpp.obj: CXX_COMPILER__sem7_demo_compare_avl_vs_redblack_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_compare_avl_vs_redblack.cpp || cmake_object_order_depends_target_sem7_demo_compare_avl_vs_redblack
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_compare_avl_vs_redblack.dir\demos\demo_compare_avl_vs_redblack.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_compare_avl_vs_redblack.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_compare_avl_vs_redblack.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_compare_avl_vs_redblack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_compare_avl_vs_redblack
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_compare_avl_vs_redblack.exe
+
+build Semana7/sem7_demo_compare_avl_vs_redblack.exe: CXX_EXECUTABLE_LINKER__sem7_demo_compare_avl_vs_redblack_ Semana7/CMakeFiles/sem7_demo_compare_avl_vs_redblack.dir/demos/demo_compare_avl_vs_redblack.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_compare_avl_vs_redblack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_compare_avl_vs_redblack.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_compare_avl_vs_redblack.dll.a
+  TARGET_PDB = sem7_demo_compare_avl_vs_redblack.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_compare_avl_vs_redblack.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_compare_with_semana5
+
+
+#############################################
+# Order-only phony target for sem7_demo_compare_with_semana5
+
+build cmake_object_order_depends_target_sem7_demo_compare_with_semana5: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_compare_with_semana5.dir/demos/demo_compare_with_semana5.cpp.obj: CXX_COMPILER__sem7_demo_compare_with_semana5_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_compare_with_semana5.cpp || cmake_object_order_depends_target_sem7_demo_compare_with_semana5
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_compare_with_semana5.dir\demos\demo_compare_with_semana5.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_compare_with_semana5.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_compare_with_semana5.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_compare_with_semana5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_compare_with_semana5
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_compare_with_semana5.exe
+
+build Semana7/sem7_demo_compare_with_semana5.exe: CXX_EXECUTABLE_LINKER__sem7_demo_compare_with_semana5_ Semana7/CMakeFiles/sem7_demo_compare_with_semana5.dir/demos/demo_compare_with_semana5.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_compare_with_semana5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_compare_with_semana5.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_compare_with_semana5.dll.a
+  TARGET_PDB = sem7_demo_compare_with_semana5.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_compare_with_semana5.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_demo_capitulo7_panorama
+
+
+#############################################
+# Order-only phony target for sem7_demo_capitulo7_panorama
+
+build cmake_object_order_depends_target_sem7_demo_capitulo7_panorama: phony || .
+
+build Semana7/CMakeFiles/sem7_demo_capitulo7_panorama.dir/demos/demo_capitulo7_panorama.cpp.obj: CXX_COMPILER__sem7_demo_capitulo7_panorama_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/demos/demo_capitulo7_panorama.cpp || cmake_object_order_depends_target_sem7_demo_capitulo7_panorama
+  DEP_FILE = Semana7\CMakeFiles\sem7_demo_capitulo7_panorama.dir\demos\demo_capitulo7_panorama.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_capitulo7_panorama.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_demo_capitulo7_panorama.dir\demos
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_capitulo7_panorama.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_demo_capitulo7_panorama
+
+
+#############################################
+# Link the executable Semana7\sem7_demo_capitulo7_panorama.exe
+
+build Semana7/sem7_demo_capitulo7_panorama.exe: CXX_EXECUTABLE_LINKER__sem7_demo_capitulo7_panorama_ Semana7/CMakeFiles/sem7_demo_capitulo7_panorama.dir/demos/demo_capitulo7_panorama.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_demo_capitulo7_panorama.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_demo_capitulo7_panorama.exe
+  TARGET_IMPLIB = Semana7\libsem7_demo_capitulo7_panorama.dll.a
+  TARGET_PDB = sem7_demo_capitulo7_panorama.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_demo_capitulo7_panorama.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_test_public
+
+
+#############################################
+# Order-only phony target for sem7_test_public
+
+build cmake_object_order_depends_target_sem7_test_public: phony || .
+
+build Semana7/CMakeFiles/sem7_test_public.dir/pruebas_publicas/test_public_week7.cpp.obj: CXX_COMPILER__sem7_test_public_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/pruebas_publicas/test_public_week7.cpp || cmake_object_order_depends_target_sem7_test_public
+  DEP_FILE = Semana7\CMakeFiles\sem7_test_public.dir\pruebas_publicas\test_public_week7.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_test_public.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_test_public.dir\pruebas_publicas
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_test_public.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_test_public
+
+
+#############################################
+# Link the executable Semana7\sem7_test_public.exe
+
+build Semana7/sem7_test_public.exe: CXX_EXECUTABLE_LINKER__sem7_test_public_ Semana7/CMakeFiles/sem7_test_public.dir/pruebas_publicas/test_public_week7.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_test_public.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_test_public.exe
+  TARGET_IMPLIB = Semana7\libsem7_test_public.dll.a
+  TARGET_PDB = sem7_test_public.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_test_public.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem7_test_internal
+
+
+#############################################
+# Order-only phony target for sem7_test_internal
+
+build cmake_object_order_depends_target_sem7_test_internal: phony || .
+
+build Semana7/CMakeFiles/sem7_test_internal.dir/pruebas_internas/test_internal_week7.cpp.obj: CXX_COMPILER__sem7_test_internal_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/pruebas_internas/test_internal_week7.cpp || cmake_object_order_depends_target_sem7_test_internal
+  DEP_FILE = Semana7\CMakeFiles\sem7_test_internal.dir\pruebas_internas\test_internal_week7.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/include -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/../Semana5/include
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_test_internal.dir
+  OBJECT_FILE_DIR = Semana7\CMakeFiles\sem7_test_internal.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_test_internal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem7_test_internal
+
+
+#############################################
+# Link the executable Semana7\sem7_test_internal.exe
+
+build Semana7/sem7_test_internal.exe: CXX_EXECUTABLE_LINKER__sem7_test_internal_ Semana7/CMakeFiles/sem7_test_internal.dir/pruebas_internas/test_internal_week7.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana7\CMakeFiles\sem7_test_internal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana7\sem7_test_internal.exe
+  TARGET_IMPLIB = Semana7\libsem7_test_internal.dll.a
+  TARGET_PDB = sem7_test_internal.exe.dbg
+  TARGET_SUPPORT_DIR = Semana7\CMakeFiles\sem7_test_internal.dir
+
+
+#############################################
+# Utility command for test
+
+build Semana7/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana7 && C:\msys64\ucrt64\bin\ctest.exe "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build Semana7/test: phony Semana7/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Semana7/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana7 && C:\msys64\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Semana7/edit_cache: phony Semana7/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Semana7/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana7 && C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -SC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232 -BC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Semana7/rebuild_cache: phony Semana7/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_chained
+
+
+#############################################
+# Order-only phony target for sem8_demo_chained
+
+build cmake_object_order_depends_target_sem8_demo_chained: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_chained.dir/demos/demo_chained.cpp.obj: CXX_COMPILER__sem8_demo_chained_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_chained.cpp || cmake_object_order_depends_target_sem8_demo_chained
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_chained.dir\demos\demo_chained.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_chained.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_chained.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_chained.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_chained
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_chained.exe
+
+build Semana8/sem8_demo_chained.exe: CXX_EXECUTABLE_LINKER__sem8_demo_chained_ Semana8/CMakeFiles/sem8_demo_chained.dir/demos/demo_chained.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_chained.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_chained.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_chained.dll.a
+  TARGET_PDB = sem8_demo_chained.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_chained.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_linear
+
+
+#############################################
+# Order-only phony target for sem8_demo_linear
+
+build cmake_object_order_depends_target_sem8_demo_linear: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_linear.dir/demos/demo_linear.cpp.obj: CXX_COMPILER__sem8_demo_linear_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_linear.cpp || cmake_object_order_depends_target_sem8_demo_linear
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_linear.dir\demos\demo_linear.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_linear.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_linear.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_linear.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_linear
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_linear.exe
+
+build Semana8/sem8_demo_linear.exe: CXX_EXECUTABLE_LINKER__sem8_demo_linear_ Semana8/CMakeFiles/sem8_demo_linear.dir/demos/demo_linear.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_linear.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_linear.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_linear.dll.a
+  TARGET_PDB = sem8_demo_linear.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_linear.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_hashtable_oa
+
+
+#############################################
+# Order-only phony target for sem8_demo_hashtable_oa
+
+build cmake_object_order_depends_target_sem8_demo_hashtable_oa: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_hashtable_oa.dir/demos/demo_hashtable_oa.cpp.obj: CXX_COMPILER__sem8_demo_hashtable_oa_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_hashtable_oa.cpp || cmake_object_order_depends_target_sem8_demo_hashtable_oa
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_hashtable_oa.dir\demos\demo_hashtable_oa.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_hashtable_oa.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_hashtable_oa.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_hashtable_oa.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_hashtable_oa
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_hashtable_oa.exe
+
+build Semana8/sem8_demo_hashtable_oa.exe: CXX_EXECUTABLE_LINKER__sem8_demo_hashtable_oa_ Semana8/CMakeFiles/sem8_demo_hashtable_oa.dir/demos/demo_hashtable_oa.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_hashtable_oa.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_hashtable_oa.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_hashtable_oa.dll.a
+  TARGET_PDB = sem8_demo_hashtable_oa.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_hashtable_oa.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_aplicaciones
+
+
+#############################################
+# Order-only phony target for sem8_demo_aplicaciones
+
+build cmake_object_order_depends_target_sem8_demo_aplicaciones: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_aplicaciones.dir/demos/demo_aplicaciones.cpp.obj: CXX_COMPILER__sem8_demo_aplicaciones_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_aplicaciones.cpp || cmake_object_order_depends_target_sem8_demo_aplicaciones
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_aplicaciones.dir\demos\demo_aplicaciones.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_aplicaciones.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_aplicaciones.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_aplicaciones.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_aplicaciones
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_aplicaciones.exe
+
+build Semana8/sem8_demo_aplicaciones.exe: CXX_EXECUTABLE_LINKER__sem8_demo_aplicaciones_ Semana8/CMakeFiles/sem8_demo_aplicaciones.dir/demos/demo_aplicaciones.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_aplicaciones.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_aplicaciones.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_aplicaciones.dll.a
+  TARGET_PDB = sem8_demo_aplicaciones.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_aplicaciones.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_collision_strategies
+
+
+#############################################
+# Order-only phony target for sem8_demo_collision_strategies
+
+build cmake_object_order_depends_target_sem8_demo_collision_strategies: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_collision_strategies.dir/demos/demo_collision_strategies.cpp.obj: CXX_COMPILER__sem8_demo_collision_strategies_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_collision_strategies.cpp || cmake_object_order_depends_target_sem8_demo_collision_strategies
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_collision_strategies.dir\demos\demo_collision_strategies.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_collision_strategies.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_collision_strategies.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_collision_strategies.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_collision_strategies
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_collision_strategies.exe
+
+build Semana8/sem8_demo_collision_strategies.exe: CXX_EXECUTABLE_LINKER__sem8_demo_collision_strategies_ Semana8/CMakeFiles/sem8_demo_collision_strategies.dir/demos/demo_collision_strategies.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_collision_strategies.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_collision_strategies.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_collision_strategies.dll.a
+  TARGET_PDB = sem8_demo_collision_strategies.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_collision_strategies.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_hash_functions
+
+
+#############################################
+# Order-only phony target for sem8_demo_hash_functions
+
+build cmake_object_order_depends_target_sem8_demo_hash_functions: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_hash_functions.dir/demos/demo_hash_functions.cpp.obj: CXX_COMPILER__sem8_demo_hash_functions_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_hash_functions.cpp || cmake_object_order_depends_target_sem8_demo_hash_functions
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_hash_functions.dir\demos\demo_hash_functions.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_hash_functions.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_hash_functions.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_hash_functions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_hash_functions
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_hash_functions.exe
+
+build Semana8/sem8_demo_hash_functions.exe: CXX_EXECUTABLE_LINKER__sem8_demo_hash_functions_ Semana8/CMakeFiles/sem8_demo_hash_functions.dir/demos/demo_hash_functions.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_hash_functions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_hash_functions.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_hash_functions.dll.a
+  TARGET_PDB = sem8_demo_hash_functions.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_hash_functions.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_tombstones
+
+
+#############################################
+# Order-only phony target for sem8_demo_tombstones
+
+build cmake_object_order_depends_target_sem8_demo_tombstones: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_tombstones.dir/demos/demo_tombstones.cpp.obj: CXX_COMPILER__sem8_demo_tombstones_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_tombstones.cpp || cmake_object_order_depends_target_sem8_demo_tombstones
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_tombstones.dir\demos\demo_tombstones.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_tombstones.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_tombstones.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_tombstones.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_tombstones
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_tombstones.exe
+
+build Semana8/sem8_demo_tombstones.exe: CXX_EXECUTABLE_LINKER__sem8_demo_tombstones_ Semana8/CMakeFiles/sem8_demo_tombstones.dir/demos/demo_tombstones.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_tombstones.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_tombstones.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_tombstones.dll.a
+  TARGET_PDB = sem8_demo_tombstones.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_tombstones.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_demo_benchmark_load_factor
+
+
+#############################################
+# Order-only phony target for sem8_demo_benchmark_load_factor
+
+build cmake_object_order_depends_target_sem8_demo_benchmark_load_factor: phony || .
+
+build Semana8/CMakeFiles/sem8_demo_benchmark_load_factor.dir/demos/demo_benchmark_load_factor.cpp.obj: CXX_COMPILER__sem8_demo_benchmark_load_factor_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/demos/demo_benchmark_load_factor.cpp || cmake_object_order_depends_target_sem8_demo_benchmark_load_factor
+  DEP_FILE = Semana8\CMakeFiles\sem8_demo_benchmark_load_factor.dir\demos\demo_benchmark_load_factor.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_benchmark_load_factor.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_demo_benchmark_load_factor.dir\demos
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_benchmark_load_factor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_demo_benchmark_load_factor
+
+
+#############################################
+# Link the executable Semana8\sem8_demo_benchmark_load_factor.exe
+
+build Semana8/sem8_demo_benchmark_load_factor.exe: CXX_EXECUTABLE_LINKER__sem8_demo_benchmark_load_factor_ Semana8/CMakeFiles/sem8_demo_benchmark_load_factor.dir/demos/demo_benchmark_load_factor.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_demo_benchmark_load_factor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_demo_benchmark_load_factor.exe
+  TARGET_IMPLIB = Semana8\libsem8_demo_benchmark_load_factor.dll.a
+  TARGET_PDB = sem8_demo_benchmark_load_factor.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_demo_benchmark_load_factor.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_test_public
+
+
+#############################################
+# Order-only phony target for sem8_test_public
+
+build cmake_object_order_depends_target_sem8_test_public: phony || .
+
+build Semana8/CMakeFiles/sem8_test_public.dir/pruebas_publicas/test_public_week8.cpp.obj: CXX_COMPILER__sem8_test_public_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/pruebas_publicas/test_public_week8.cpp || cmake_object_order_depends_target_sem8_test_public
+  DEP_FILE = Semana8\CMakeFiles\sem8_test_public.dir\pruebas_publicas\test_public_week8.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_public.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_test_public.dir\pruebas_publicas
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_public.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_test_public
+
+
+#############################################
+# Link the executable Semana8\sem8_test_public.exe
+
+build Semana8/sem8_test_public.exe: CXX_EXECUTABLE_LINKER__sem8_test_public_ Semana8/CMakeFiles/sem8_test_public.dir/pruebas_publicas/test_public_week8.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_public.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_test_public.exe
+  TARGET_IMPLIB = Semana8\libsem8_test_public.dll.a
+  TARGET_PDB = sem8_test_public.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_public.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_test_internal
+
+
+#############################################
+# Order-only phony target for sem8_test_internal
+
+build cmake_object_order_depends_target_sem8_test_internal: phony || .
+
+build Semana8/CMakeFiles/sem8_test_internal.dir/pruebas_internas/test_internal_week8.cpp.obj: CXX_COMPILER__sem8_test_internal_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/pruebas_internas/test_internal_week8.cpp || cmake_object_order_depends_target_sem8_test_internal
+  DEP_FILE = Semana8\CMakeFiles\sem8_test_internal.dir\pruebas_internas\test_internal_week8.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_internal.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_test_internal.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_internal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_test_internal
+
+
+#############################################
+# Link the executable Semana8\sem8_test_internal.exe
+
+build Semana8/sem8_test_internal.exe: CXX_EXECUTABLE_LINKER__sem8_test_internal_ Semana8/CMakeFiles/sem8_test_internal.dir/pruebas_internas/test_internal_week8.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_internal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_test_internal.exe
+  TARGET_IMPLIB = Semana8\libsem8_test_internal.dll.a
+  TARGET_PDB = sem8_test_internal.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_internal.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_test_tombstones
+
+
+#############################################
+# Order-only phony target for sem8_test_tombstones
+
+build cmake_object_order_depends_target_sem8_test_tombstones: phony || .
+
+build Semana8/CMakeFiles/sem8_test_tombstones.dir/pruebas_internas/test_tombstones.cpp.obj: CXX_COMPILER__sem8_test_tombstones_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/pruebas_internas/test_tombstones.cpp || cmake_object_order_depends_target_sem8_test_tombstones
+  DEP_FILE = Semana8\CMakeFiles\sem8_test_tombstones.dir\pruebas_internas\test_tombstones.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_tombstones.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_test_tombstones.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_tombstones.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_test_tombstones
+
+
+#############################################
+# Link the executable Semana8\sem8_test_tombstones.exe
+
+build Semana8/sem8_test_tombstones.exe: CXX_EXECUTABLE_LINKER__sem8_test_tombstones_ Semana8/CMakeFiles/sem8_test_tombstones.dir/pruebas_internas/test_tombstones.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_tombstones.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_test_tombstones.exe
+  TARGET_IMPLIB = Semana8\libsem8_test_tombstones.dll.a
+  TARGET_PDB = sem8_test_tombstones.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_tombstones.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_test_collision_patterns
+
+
+#############################################
+# Order-only phony target for sem8_test_collision_patterns
+
+build cmake_object_order_depends_target_sem8_test_collision_patterns: phony || .
+
+build Semana8/CMakeFiles/sem8_test_collision_patterns.dir/pruebas_internas/test_collision_patterns.cpp.obj: CXX_COMPILER__sem8_test_collision_patterns_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/pruebas_internas/test_collision_patterns.cpp || cmake_object_order_depends_target_sem8_test_collision_patterns
+  DEP_FILE = Semana8\CMakeFiles\sem8_test_collision_patterns.dir\pruebas_internas\test_collision_patterns.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_collision_patterns.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_test_collision_patterns.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_collision_patterns.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_test_collision_patterns
+
+
+#############################################
+# Link the executable Semana8\sem8_test_collision_patterns.exe
+
+build Semana8/sem8_test_collision_patterns.exe: CXX_EXECUTABLE_LINKER__sem8_test_collision_patterns_ Semana8/CMakeFiles/sem8_test_collision_patterns.dir/pruebas_internas/test_collision_patterns.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_collision_patterns.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_test_collision_patterns.exe
+  TARGET_IMPLIB = Semana8\libsem8_test_collision_patterns.dll.a
+  TARGET_PDB = sem8_test_collision_patterns.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_collision_patterns.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_test_rehashing
+
+
+#############################################
+# Order-only phony target for sem8_test_rehashing
+
+build cmake_object_order_depends_target_sem8_test_rehashing: phony || .
+
+build Semana8/CMakeFiles/sem8_test_rehashing.dir/pruebas_internas/test_rehashing.cpp.obj: CXX_COMPILER__sem8_test_rehashing_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/pruebas_internas/test_rehashing.cpp || cmake_object_order_depends_target_sem8_test_rehashing
+  DEP_FILE = Semana8\CMakeFiles\sem8_test_rehashing.dir\pruebas_internas\test_rehashing.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_rehashing.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_test_rehashing.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_rehashing.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_test_rehashing
+
+
+#############################################
+# Link the executable Semana8\sem8_test_rehashing.exe
+
+build Semana8/sem8_test_rehashing.exe: CXX_EXECUTABLE_LINKER__sem8_test_rehashing_ Semana8/CMakeFiles/sem8_test_rehashing.dir/pruebas_internas/test_rehashing.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_rehashing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_test_rehashing.exe
+  TARGET_IMPLIB = Semana8\libsem8_test_rehashing.dll.a
+  TARGET_PDB = sem8_test_rehashing.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_rehashing.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sem8_test_randomized_against_stl
+
+
+#############################################
+# Order-only phony target for sem8_test_randomized_against_stl
+
+build cmake_object_order_depends_target_sem8_test_randomized_against_stl: phony || .
+
+build Semana8/CMakeFiles/sem8_test_randomized_against_stl.dir/pruebas_internas/test_randomized_against_stl.cpp.obj: CXX_COMPILER__sem8_test_randomized_against_stl_unscanned_ C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/pruebas_internas/test_randomized_against_stl.cpp || cmake_object_order_depends_target_sem8_test_randomized_against_stl
+  DEP_FILE = Semana8\CMakeFiles\sem8_test_randomized_against_stl.dir\pruebas_internas\test_randomized_against_stl.cpp.obj.d
+  FLAGS = -std=c++17
+  INCLUDES = -IC:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/include
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_randomized_against_stl.dir
+  OBJECT_FILE_DIR = Semana8\CMakeFiles\sem8_test_randomized_against_stl.dir\pruebas_internas
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_randomized_against_stl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sem8_test_randomized_against_stl
+
+
+#############################################
+# Link the executable Semana8\sem8_test_randomized_against_stl.exe
+
+build Semana8/sem8_test_randomized_against_stl.exe: CXX_EXECUTABLE_LINKER__sem8_test_randomized_against_stl_ Semana8/CMakeFiles/sem8_test_randomized_against_stl.dir/pruebas_internas/test_randomized_against_stl.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Semana8\CMakeFiles\sem8_test_randomized_against_stl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Semana8\sem8_test_randomized_against_stl.exe
+  TARGET_IMPLIB = Semana8\libsem8_test_randomized_against_stl.dll.a
+  TARGET_PDB = sem8_test_randomized_against_stl.exe.dbg
+  TARGET_SUPPORT_DIR = Semana8\CMakeFiles\sem8_test_randomized_against_stl.dir
+
+
+#############################################
+# Utility command for test
+
+build Semana8/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana8 && C:\msys64\ucrt64\bin\ctest.exe "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build Semana8/test: phony Semana8/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Semana8/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana8 && C:\msys64\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Semana8/edit_cache: phony Semana8/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Semana8/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug\Semana8 && C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -SC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232 -BC:\Users\AXEL\OneDrive\Escritorio\uni\2026-1\AED\Repositorio\Personal\CC232\Libreria_cc232\build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Semana8/rebuild_cache: phony Semana8/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -2778,10 +4588,6 @@ build sem3_demo_contiguous_vs_linked: phony Semana3/sem3_demo_contiguous_vs_link
 
 build sem3_demo_contiguous_vs_linked.exe: phony Semana3/sem3_demo_contiguous_vs_linked.exe
 
-build sem3_demo_deng_list: phony Semana3/sem3_demo_deng_list.exe
-
-build sem3_demo_deng_list.exe: phony Semana3/sem3_demo_deng_list.exe
-
 build sem3_demo_dllist: phony Semana3/sem3_demo_dllist.exe
 
 build sem3_demo_dllist.exe: phony Semana3/sem3_demo_dllist.exe
@@ -2793,10 +4599,6 @@ build sem3_demo_linked_adapters.exe: phony Semana3/sem3_demo_linked_adapters.exe
 build sem3_demo_min_structures: phony Semana3/sem3_demo_min_structures.exe
 
 build sem3_demo_min_structures.exe: phony Semana3/sem3_demo_min_structures.exe
-
-build sem3_demo_morin_deng_bridge: phony Semana3/sem3_demo_morin_deng_bridge.exe
-
-build sem3_demo_morin_deng_bridge.exe: phony Semana3/sem3_demo_morin_deng_bridge.exe
 
 build sem3_demo_selist: phony Semana3/sem3_demo_selist.exe
 
@@ -2818,10 +4620,6 @@ build sem3_test_internal: phony Semana3/sem3_test_internal.exe
 
 build sem3_test_internal.exe: phony Semana3/sem3_test_internal.exe
 
-build sem3_test_internal_deng: phony Semana3/sem3_test_internal_deng.exe
-
-build sem3_test_internal_deng.exe: phony Semana3/sem3_test_internal_deng.exe
-
 build sem3_test_internal_extras: phony Semana3/sem3_test_internal_extras.exe
 
 build sem3_test_internal_extras.exe: phony Semana3/sem3_test_internal_extras.exe
@@ -2834,10 +4632,6 @@ build sem3_test_public_compare: phony Semana3/sem3_test_public_compare.exe
 
 build sem3_test_public_compare.exe: phony Semana3/sem3_test_public_compare.exe
 
-build sem3_test_public_deng: phony Semana3/sem3_test_public_deng.exe
-
-build sem3_test_public_deng.exe: phony Semana3/sem3_test_public_deng.exe
-
 build sem3_test_public_extras: phony Semana3/sem3_test_public_extras.exe
 
 build sem3_test_public_extras.exe: phony Semana3/sem3_test_public_extras.exe
@@ -2845,6 +4639,206 @@ build sem3_test_public_extras.exe: phony Semana3/sem3_test_public_extras.exe
 build sem3_test_public_linked_adapters: phony Semana3/sem3_test_public_linked_adapters.exe
 
 build sem3_test_public_linked_adapters.exe: phony Semana3/sem3_test_public_linked_adapters.exe
+
+build sem4_demo_bank: phony Semana4/sem4_demo_bank.exe
+
+build sem4_demo_bank.exe: phony Semana4/sem4_demo_bank.exe
+
+build sem4_demo_base_conversion: phony Semana4/sem4_demo_base_conversion.exe
+
+build sem4_demo_base_conversion.exe: phony Semana4/sem4_demo_base_conversion.exe
+
+build sem4_demo_capitulo4_panorama: phony Semana4/sem4_demo_capitulo4_panorama.exe
+
+build sem4_demo_capitulo4_panorama.exe: phony Semana4/sem4_demo_capitulo4_panorama.exe
+
+build sem4_demo_maze: phony Semana4/sem4_demo_maze.exe
+
+build sem4_demo_maze.exe: phony Semana4/sem4_demo_maze.exe
+
+build sem4_demo_nqueens: phony Semana4/sem4_demo_nqueens.exe
+
+build sem4_demo_nqueens.exe: phony Semana4/sem4_demo_nqueens.exe
+
+build sem4_demo_paren_rpn: phony Semana4/sem4_demo_paren_rpn.exe
+
+build sem4_demo_paren_rpn.exe: phony Semana4/sem4_demo_paren_rpn.exe
+
+build sem4_demo_stack_queue: phony Semana4/sem4_demo_stack_queue.exe
+
+build sem4_demo_stack_queue.exe: phony Semana4/sem4_demo_stack_queue.exe
+
+build sem4_test_internal: phony Semana4/sem4_test_internal.exe
+
+build sem4_test_internal.exe: phony Semana4/sem4_test_internal.exe
+
+build sem4_test_public: phony Semana4/sem4_test_public.exe
+
+build sem4_test_public.exe: phony Semana4/sem4_test_public.exe
+
+build sem5_demo_binary_tree: phony Semana5/sem5_demo_binary_tree.exe
+
+build sem5_demo_binary_tree.exe: phony Semana5/sem5_demo_binary_tree.exe
+
+build sem5_demo_bst: phony Semana5/sem5_demo_bst.exe
+
+build sem5_demo_bst.exe: phony Semana5/sem5_demo_bst.exe
+
+build sem5_demo_capitulo5_panorama: phony Semana5/sem5_demo_capitulo5_panorama.exe
+
+build sem5_demo_capitulo5_panorama.exe: phony Semana5/sem5_demo_capitulo5_panorama.exe
+
+build sem5_demo_heap: phony Semana5/sem5_demo_heap.exe
+
+build sem5_demo_heap.exe: phony Semana5/sem5_demo_heap.exe
+
+build sem5_test_internal: phony Semana5/sem5_test_internal.exe
+
+build sem5_test_internal.exe: phony Semana5/sem5_test_internal.exe
+
+build sem5_test_public: phony Semana5/sem5_test_public.exe
+
+build sem5_test_public.exe: phony Semana5/sem5_test_public.exe
+
+build sem6_demo_bst_rotations: phony Semana6/sem6_demo_bst_rotations.exe
+
+build sem6_demo_bst_rotations.exe: phony Semana6/sem6_demo_bst_rotations.exe
+
+build sem6_demo_capitulo6_panorama: phony Semana6/sem6_demo_capitulo6_panorama.exe
+
+build sem6_demo_capitulo6_panorama.exe: phony Semana6/sem6_demo_capitulo6_panorama.exe
+
+build sem6_demo_compare_with_semana5: phony Semana6/sem6_demo_compare_with_semana5.exe
+
+build sem6_demo_compare_with_semana5.exe: phony Semana6/sem6_demo_compare_with_semana5.exe
+
+build sem6_demo_heapify_floyd: phony Semana6/sem6_demo_heapify_floyd.exe
+
+build sem6_demo_heapify_floyd.exe: phony Semana6/sem6_demo_heapify_floyd.exe
+
+build sem6_demo_heapsort: phony Semana6/sem6_demo_heapsort.exe
+
+build sem6_demo_heapsort.exe: phony Semana6/sem6_demo_heapsort.exe
+
+build sem6_demo_huffman: phony Semana6/sem6_demo_huffman.exe
+
+build sem6_demo_huffman.exe: phony Semana6/sem6_demo_huffman.exe
+
+build sem6_demo_left_heap_merge: phony Semana6/sem6_demo_left_heap_merge.exe
+
+build sem6_demo_left_heap_merge.exe: phony Semana6/sem6_demo_left_heap_merge.exe
+
+build sem6_demo_pq_complheap_basico: phony Semana6/sem6_demo_pq_complheap_basico.exe
+
+build sem6_demo_pq_complheap_basico.exe: phony Semana6/sem6_demo_pq_complheap_basico.exe
+
+build sem6_demo_treap_basico: phony Semana6/sem6_demo_treap_basico.exe
+
+build sem6_demo_treap_basico.exe: phony Semana6/sem6_demo_treap_basico.exe
+
+build sem6_test_internal: phony Semana6/sem6_test_internal.exe
+
+build sem6_test_internal.exe: phony Semana6/sem6_test_internal.exe
+
+build sem6_test_public: phony Semana6/sem6_test_public.exe
+
+build sem6_test_public.exe: phony Semana6/sem6_test_public.exe
+
+build sem7_demo_avl_compact_rotations: phony Semana7/sem7_demo_avl_compact_rotations.exe
+
+build sem7_demo_avl_compact_rotations.exe: phony Semana7/sem7_demo_avl_compact_rotations.exe
+
+build sem7_demo_avl_deng_core: phony Semana7/sem7_demo_avl_deng_core.exe
+
+build sem7_demo_avl_deng_core.exe: phony Semana7/sem7_demo_avl_deng_core.exe
+
+build sem7_demo_bst_deng_vs_avl: phony Semana7/sem7_demo_bst_deng_vs_avl.exe
+
+build sem7_demo_bst_deng_vs_avl.exe: phony Semana7/sem7_demo_bst_deng_vs_avl.exe
+
+build sem7_demo_capitulo7_panorama: phony Semana7/sem7_demo_capitulo7_panorama.exe
+
+build sem7_demo_capitulo7_panorama.exe: phony Semana7/sem7_demo_capitulo7_panorama.exe
+
+build sem7_demo_compare_avl_vs_redblack: phony Semana7/sem7_demo_compare_avl_vs_redblack.exe
+
+build sem7_demo_compare_avl_vs_redblack.exe: phony Semana7/sem7_demo_compare_avl_vs_redblack.exe
+
+build sem7_demo_compare_with_semana5: phony Semana7/sem7_demo_compare_with_semana5.exe
+
+build sem7_demo_compare_with_semana5.exe: phony Semana7/sem7_demo_compare_with_semana5.exe
+
+build sem7_demo_redblack_llrb: phony Semana7/sem7_demo_redblack_llrb.exe
+
+build sem7_demo_redblack_llrb.exe: phony Semana7/sem7_demo_redblack_llrb.exe
+
+build sem7_demo_redblack_morin: phony Semana7/sem7_demo_redblack_morin.exe
+
+build sem7_demo_redblack_morin.exe: phony Semana7/sem7_demo_redblack_morin.exe
+
+build sem7_test_internal: phony Semana7/sem7_test_internal.exe
+
+build sem7_test_internal.exe: phony Semana7/sem7_test_internal.exe
+
+build sem7_test_public: phony Semana7/sem7_test_public.exe
+
+build sem7_test_public.exe: phony Semana7/sem7_test_public.exe
+
+build sem8_demo_aplicaciones: phony Semana8/sem8_demo_aplicaciones.exe
+
+build sem8_demo_aplicaciones.exe: phony Semana8/sem8_demo_aplicaciones.exe
+
+build sem8_demo_benchmark_load_factor: phony Semana8/sem8_demo_benchmark_load_factor.exe
+
+build sem8_demo_benchmark_load_factor.exe: phony Semana8/sem8_demo_benchmark_load_factor.exe
+
+build sem8_demo_chained: phony Semana8/sem8_demo_chained.exe
+
+build sem8_demo_chained.exe: phony Semana8/sem8_demo_chained.exe
+
+build sem8_demo_collision_strategies: phony Semana8/sem8_demo_collision_strategies.exe
+
+build sem8_demo_collision_strategies.exe: phony Semana8/sem8_demo_collision_strategies.exe
+
+build sem8_demo_hash_functions: phony Semana8/sem8_demo_hash_functions.exe
+
+build sem8_demo_hash_functions.exe: phony Semana8/sem8_demo_hash_functions.exe
+
+build sem8_demo_hashtable_oa: phony Semana8/sem8_demo_hashtable_oa.exe
+
+build sem8_demo_hashtable_oa.exe: phony Semana8/sem8_demo_hashtable_oa.exe
+
+build sem8_demo_linear: phony Semana8/sem8_demo_linear.exe
+
+build sem8_demo_linear.exe: phony Semana8/sem8_demo_linear.exe
+
+build sem8_demo_tombstones: phony Semana8/sem8_demo_tombstones.exe
+
+build sem8_demo_tombstones.exe: phony Semana8/sem8_demo_tombstones.exe
+
+build sem8_test_collision_patterns: phony Semana8/sem8_test_collision_patterns.exe
+
+build sem8_test_collision_patterns.exe: phony Semana8/sem8_test_collision_patterns.exe
+
+build sem8_test_internal: phony Semana8/sem8_test_internal.exe
+
+build sem8_test_internal.exe: phony Semana8/sem8_test_internal.exe
+
+build sem8_test_public: phony Semana8/sem8_test_public.exe
+
+build sem8_test_public.exe: phony Semana8/sem8_test_public.exe
+
+build sem8_test_randomized_against_stl: phony Semana8/sem8_test_randomized_against_stl.exe
+
+build sem8_test_randomized_against_stl.exe: phony Semana8/sem8_test_randomized_against_stl.exe
+
+build sem8_test_rehashing: phony Semana8/sem8_test_rehashing.exe
+
+build sem8_test_rehashing.exe: phony Semana8/sem8_test_rehashing.exe
+
+build sem8_test_tombstones: phony Semana8/sem8_test_tombstones.exe
+
+build sem8_test_tombstones.exe: phony Semana8/sem8_test_tombstones.exe
 
 # =============================================================================
 # Folder targets.
@@ -2854,7 +4848,7 @@ build sem3_test_public_linked_adapters.exe: phony Semana3/sem3_test_public_linke
 #############################################
 # Folder: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug
 
-build all: phony Semana1/all Semana2/all Semana3/all
+build all: phony Semana1/all Semana2/all Semana3/all Semana4/all Semana5/all Semana6/all Semana7/all Semana8/all
 
 # =============================================================================
 
@@ -2875,7 +4869,42 @@ build Semana2/all: phony Semana2/sem2_demo_arraystack.exe Semana2/sem2_demo_fast
 #############################################
 # Folder: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3
 
-build Semana3/all: phony Semana3/sem3_demo_sllist.exe Semana3/sem3_demo_dllist.exe Semana3/sem3_demo_selist.exe Semana3/sem3_demo_capitulo3_panorama.exe Semana3/sem3_demo_min_structures.exe Semana3/sem3_demo_xor_list.exe Semana3/sem3_demo_linked_adapters.exe Semana3/sem3_demo_contiguous_vs_linked.exe Semana3/sem3_benchmark.exe Semana3/sem3_test_public.exe Semana3/sem3_test_public_extras.exe Semana3/sem3_test_internal.exe Semana3/sem3_stress_selist.exe Semana3/sem3_test_internal_extras.exe Semana3/sem3_test_public_linked_adapters.exe Semana3/sem3_test_public_compare.exe Semana3/sem3_demo_deng_list.exe Semana3/sem3_demo_morin_deng_bridge.exe Semana3/sem3_test_public_deng.exe Semana3/sem3_test_internal_deng.exe
+build Semana3/all: phony Semana3/sem3_demo_sllist.exe Semana3/sem3_demo_dllist.exe Semana3/sem3_demo_selist.exe Semana3/sem3_demo_capitulo3_panorama.exe Semana3/sem3_demo_min_structures.exe Semana3/sem3_demo_xor_list.exe Semana3/sem3_demo_linked_adapters.exe Semana3/sem3_demo_contiguous_vs_linked.exe Semana3/sem3_benchmark.exe Semana3/sem3_test_public.exe Semana3/sem3_test_public_extras.exe Semana3/sem3_test_internal.exe Semana3/sem3_stress_selist.exe Semana3/sem3_test_internal_extras.exe Semana3/sem3_test_public_linked_adapters.exe Semana3/sem3_test_public_compare.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4
+
+build Semana4/all: phony Semana4/sem4_demo_stack_queue.exe Semana4/sem4_demo_base_conversion.exe Semana4/sem4_demo_paren_rpn.exe Semana4/sem4_demo_nqueens.exe Semana4/sem4_demo_maze.exe Semana4/sem4_demo_bank.exe Semana4/sem4_demo_capitulo4_panorama.exe Semana4/sem4_test_public.exe Semana4/sem4_test_internal.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana5
+
+build Semana5/all: phony Semana5/sem5_demo_binary_tree.exe Semana5/sem5_demo_bst.exe Semana5/sem5_demo_heap.exe Semana5/sem5_demo_capitulo5_panorama.exe Semana5/sem5_test_public.exe Semana5/sem5_test_internal.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana6
+
+build Semana6/all: phony Semana6/sem6_demo_pq_complheap_basico.exe Semana6/sem6_demo_heapify_floyd.exe Semana6/sem6_demo_heapsort.exe Semana6/sem6_demo_left_heap_merge.exe Semana6/sem6_demo_huffman.exe Semana6/sem6_demo_compare_with_semana5.exe Semana6/sem6_demo_bst_rotations.exe Semana6/sem6_demo_treap_basico.exe Semana6/sem6_demo_capitulo6_panorama.exe Semana6/sem6_test_public.exe Semana6/sem6_test_internal.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana7
+
+build Semana7/all: phony Semana7/sem7_demo_avl_deng_core.exe Semana7/sem7_demo_avl_compact_rotations.exe Semana7/sem7_demo_bst_deng_vs_avl.exe Semana7/sem7_demo_redblack_morin.exe Semana7/sem7_demo_redblack_llrb.exe Semana7/sem7_demo_compare_avl_vs_redblack.exe Semana7/sem7_demo_compare_with_semana5.exe Semana7/sem7_demo_capitulo7_panorama.exe Semana7/sem7_test_public.exe Semana7/sem7_test_internal.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana8
+
+build Semana8/all: phony Semana8/sem8_demo_chained.exe Semana8/sem8_demo_linear.exe Semana8/sem8_demo_hashtable_oa.exe Semana8/sem8_demo_aplicaciones.exe Semana8/sem8_demo_collision_strategies.exe Semana8/sem8_demo_hash_functions.exe Semana8/sem8_demo_tombstones.exe Semana8/sem8_demo_benchmark_load_factor.exe Semana8/sem8_test_public.exe Semana8/sem8_test_internal.exe Semana8/sem8_test_tombstones.exe Semana8/sem8_test_collision_patterns.exe Semana8/sem8_test_rehashing.exe Semana8/sem8_test_randomized_against_stl.exe
 
 # =============================================================================
 # Built-in targets
@@ -2884,14 +4913,14 @@ build Semana3/all: phony Semana3/sem3_demo_sllist.exe Semana3/sem3_demo_dllist.e
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana1/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana2/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana1/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana2/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/CTestTestfile.cmake: RERUN_CMAKE | C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana1/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana2/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTest.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake
+build build.ninja C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana1/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana2/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana5/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana6/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana7/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana8/cmake_install.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana1/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana2/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana5/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana6/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana7/CTestTestfile.cmake C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana8/CTestTestfile.cmake: RERUN_CMAKE | C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana1/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana2/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTest.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana1/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana2/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTest.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake: phony
+build C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana1/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana2/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7/CMakeLists.txt C$:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTest.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/ucrt64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/ucrt64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -7,3 +7,8 @@
 subdirs("Semana1")
 subdirs("Semana2")
 subdirs("Semana3")
+subdirs("Semana4")
+subdirs("Semana5")
+subdirs("Semana6")
+subdirs("Semana7")
+subdirs("Semana8")

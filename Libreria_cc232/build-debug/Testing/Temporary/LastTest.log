@@ -1,33 +1,33 @@
-Start testing: Apr 23 19:29 Hora est. Pacífico, Sudamérica
+Start testing: May 07 10:43 Hora est. Pacífico, Sudamérica
 ----------------------------------------------------------
-18/19 Testing: semana3_public_deng
-18/19 Test: semana3_public_deng
-Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_public_deng.exe"
-Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3
-"semana3_public_deng" start time: Apr 23 19:29 Hora est. Pacífico, Sudamérica
+18/31 Testing: semana4_public
+18/31 Test: semana4_public
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4/sem4_test_public.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4
+"semana4_public" start time: May 07 10:43 Hora est. Pacífico, Sudamérica
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.10 sec
+Test time =   0.20 sec
 ----------------------------------------------------------
 Test Passed.
-"semana3_public_deng" end time: Apr 23 19:29 Hora est. Pacífico, Sudamérica
-"semana3_public_deng" time elapsed: 00:00:00
+"semana4_public" end time: May 07 10:43 Hora est. Pacífico, Sudamérica
+"semana4_public" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/19 Testing: semana3_internal_deng
-19/19 Test: semana3_internal_deng
-Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3/sem3_test_internal_deng.exe"
-Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana3
-"semana3_internal_deng" start time: Apr 23 19:29 Hora est. Pacífico, Sudamérica
+19/31 Testing: semana4_internal
+19/31 Test: semana4_internal
+Command: "C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4/sem4_test_internal.exe"
+Directory: C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4
+"semana4_internal" start time: May 07 10:43 Hora est. Pacífico, Sudamérica
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.11 sec
+Test time =   0.20 sec
 ----------------------------------------------------------
 Test Passed.
-"semana3_internal_deng" end time: Apr 23 19:29 Hora est. Pacífico, Sudamérica
-"semana3_internal_deng" time elapsed: 00:00:00
+"semana4_internal" end time: May 07 10:43 Hora est. Pacífico, Sudamérica
+"semana4_internal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 23 19:29 Hora est. Pacífico, Sudamérica
+End testing: May 07 10:43 Hora est. Pacífico, Sudamérica

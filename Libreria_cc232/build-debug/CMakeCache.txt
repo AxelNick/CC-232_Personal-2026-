@@ -21,7 +21,7 @@ BUILD_TESTING:BOOL=ON
 CC232_BINARY_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug
 
 //Build optional Deng bridge demos/tests
-CC232_ENABLE_DENG_BRIDGE:BOOL=ON
+CC232_ENABLE_DENG_BRIDGE:BOOL=OFF
 
 //Value Computed by CMake
 CC232_IS_TOP_LEVEL:STATIC=ON
@@ -280,6 +280,51 @@ Semana3_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 Semana3_SOURCE_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana3
 
+//Value Computed by CMake
+Semana4_BINARY_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana4
+
+//Value Computed by CMake
+Semana4_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Semana4_SOURCE_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana4
+
+//Value Computed by CMake
+Semana5_BINARY_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana5
+
+//Value Computed by CMake
+Semana5_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Semana5_SOURCE_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana5
+
+//Value Computed by CMake
+Semana6_BINARY_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana6
+
+//Value Computed by CMake
+Semana6_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Semana6_SOURCE_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana6
+
+//Value Computed by CMake
+Semana7_BINARY_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana7
+
+//Value Computed by CMake
+Semana7_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Semana7_SOURCE_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana7
+
+//Value Computed by CMake
+Semana8_BINARY_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/build-debug/Semana8
+
+//Value Computed by CMake
+Semana8_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Semana8_SOURCE_DIR:STATIC=C:/Users/AXEL/OneDrive/Escritorio/uni/2026-1/AED/Repositorio/Personal/CC232/Libreria_cc232/Semana8
+
 
 ########################
 # INTERNAL cache entries
@@ -373,7 +418,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
